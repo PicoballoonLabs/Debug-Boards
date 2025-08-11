@@ -1,2 +1,4 @@
+# Basic HW repo ignore
 *DS_Store
 *backups/
+*.lck
