@@ -762,11 +762,11 @@
     ]
   ],
   "text_variables": {
-    "CHK_APP_DATE": "4/8/2025",
+    "CHK_APP_DATE": "8/12/2025",
     "CHK_NAME": "Jakub Nagy",
-    "DSN_APP_DATE": "4/7/2025",
+    "DSN_APP_DATE": "8/12/2025",
     "DSN_NAME": "Jakub Nagy",
-    "ENG_APP_DATE": "4/8/2025",
+    "ENG_APP_DATE": "8/12/2025",
     "ENG_NAME": "Jakub Nagy",
     "PROJECT": "Flex debug cable"
   }
