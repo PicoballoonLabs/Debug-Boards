@@ -541,6 +541,10 @@
       {
         "netclass": "Coplanar Diff Pair",
         "pattern": "/D*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*V_*"
       }
     ]
   },
