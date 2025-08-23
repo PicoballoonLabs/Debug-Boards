@@ -1787,7 +1787,7 @@
 			(uuid "ec04d89f-2931-4597-8cd8-be03fbd5370a")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "J3")
 					(unit 1)
@@ -1852,7 +1852,7 @@
 			(uuid "dfa8e26f-b36a-4d3a-af7f-97a9d608bcd4")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "#PWR024")
 					(unit 1)
@@ -1917,7 +1917,7 @@
 			(uuid "39f9a5c8-f98d-4a18-9ed7-3da82d063328")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "#PWR026")
 					(unit 1)
@@ -1982,7 +1982,7 @@
 			(uuid "86088c85-2b9e-4d36-85fe-6928956f9c08")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "#PWR028")
 					(unit 1)
@@ -2047,7 +2047,7 @@
 			(uuid "34e5b63e-7e50-4fe0-a72a-d0445a22e81a")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "#PWR036")
 					(unit 1)
@@ -2117,7 +2117,7 @@
 			(uuid "2b332115-6bc6-4209-8d24-57918bcb8e70")
 		)
 		(instances
-			(project ""
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "SW1")
 					(unit 1)
@@ -2182,7 +2182,7 @@
 			(uuid "f0d5b76b-e696-4569-9c4f-f243a07e730e")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "#PWR027")
 					(unit 1)
@@ -2247,7 +2247,7 @@
 			(uuid "da751385-8df3-46f6-8390-088390a8a795")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "#PWR025")
 					(unit 1)
@@ -2361,7 +2361,7 @@
 			(uuid "75de2627-fdcc-4ad1-be34-592bd8a6d4c3")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "J4")
 					(unit 1)
@@ -2426,7 +2426,7 @@
 			(uuid "9a8ead12-89a0-4fc2-b56e-f68990344521")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/c1854176-18bb-4619-bb41-9308dd6d7253"
 					(reference "#PWR029")
 					(unit 1)

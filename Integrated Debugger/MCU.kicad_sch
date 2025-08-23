@@ -2076,6 +2076,12 @@
 		(uuid "2de2fdc8-ee20-4527-bb3e-9f7932699af4")
 	)
 	(junction
+		(at 107.95 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fbf3697-2100-438a-ad77-77d766ec864d")
+	)
+	(junction
 		(at 181.61 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2493,6 +2499,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 35.56) (xy 107.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14780066-6601-47e4-88b3-b0a14da11b9d")
+	)
+	(wire
+		(pts
 			(xy 88.9 20.32) (xy 88.9 30.48)
 		)
 		(stroke
@@ -2773,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 35.56) (xy 115.57 35.56)
+			(xy 88.9 35.56) (xy 107.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2830,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "6d13e1d8-779d-4c79-a1c2-fffc62fc6ae0")
+	)
+	(wire
+		(pts
+			(xy 107.95 35.56) (xy 115.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc616dd-8789-4d82-9e43-511b2e8f389e")
 	)
 	(wire
 		(pts
@@ -4006,7 +4032,7 @@
 			(uuid "719e4194-4dba-4941-8cbf-b5939c0e4c5a")
 		)
 		(instances
-			(project ""
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "U3")
 					(unit 1)
@@ -4083,7 +4109,7 @@
 			(uuid "2707685b-b73d-476d-b284-75d3cf5e37f9")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "C7")
 					(unit 1)
@@ -4162,7 +4188,7 @@
 			(uuid "fe580122-586a-4fde-9e06-77bc0f0af713")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "C3")
 					(unit 1)
@@ -4198,7 +4224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Picoballoon Mechanical & Misc:Button GT-TC029B-H025-L1N"
+		(property "Footprint" "Picoballoon Mechanical & Misc:Button SMD-4P,2.5x1.6mm"
 			(at 93.98 99.06 0)
 			(effects
 				(font
@@ -4232,7 +4258,7 @@
 			(uuid "8bdf4438-5085-42c9-9fc4-5a602a90770b")
 		)
 		(instances
-			(project ""
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "SW2")
 					(unit 1)
@@ -4309,7 +4335,7 @@
 			(uuid "416cf61e-ac69-4636-9080-9261e3ada4fa")
 		)
 		(instances
-			(project ""
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "C4")
 					(unit 1)
@@ -4386,7 +4412,7 @@
 			(uuid "fe27c830-2764-4b88-9c10-d3101c3810d8")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "C8")
 					(unit 1)
@@ -4467,7 +4493,7 @@
 			(uuid "434dbecd-95c8-4b2d-aa16-7b8c5f648ba6")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "R14")
 					(unit 1)
@@ -4544,7 +4570,7 @@
 			(uuid "256af5fa-0cfe-47e2-a77a-3cc2b12d50f5")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "C5")
 					(unit 1)
@@ -4621,9 +4647,76 @@
 			(uuid "681da385-0c91-401c-ad1e-85745afa6489")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Power Symbols:GND")
+		(at 107.95 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41670ab3-6baf-4d8b-94a6-8cb92e4f871f")
+		(property "Reference" "#PWR019"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917169b6-3f96-4a5e-a205-006a5932165b")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4688,7 +4781,7 @@
 			(uuid "fb98b164-9c04-48c0-a9ef-1f05ad84028a")
 		)
 		(instances
-			(project ""
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "#PWR010")
 					(unit 1)
@@ -4768,7 +4861,7 @@
 			(uuid "82b2e202-ec38-47f7-a191-1ba627475f15")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "R19")
 					(unit 1)
@@ -4835,7 +4928,7 @@
 			(uuid "dec8291f-a8be-4e80-97f3-7bf3b4659000")
 		)
 		(instances
-			(project ""
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "#PWR012")
 					(unit 1)
@@ -4916,7 +5009,7 @@
 			(uuid "4deeb9c8-665a-4b90-9bfd-491fc5d1f806")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "R15")
 					(unit 1)
@@ -4983,7 +5076,7 @@
 			(uuid "0f998774-3b1b-4c88-b65c-71ff99dd9b26")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "#PWR011")
 					(unit 1)
@@ -5050,7 +5143,7 @@
 			(uuid "5666b3ed-a5dc-47fc-a5c8-2036b486d309")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "#PWR013")
 					(unit 1)
@@ -5117,7 +5210,7 @@
 			(uuid "cc415828-9959-46ec-9f70-4ce11034b5b1")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "#PWR015")
 					(unit 1)
@@ -5194,7 +5287,7 @@
 			(uuid "831682f3-1641-45c6-956d-deb1516a05ec")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "C9")
 					(unit 1)
@@ -5261,7 +5354,7 @@
 			(uuid "3cfa5080-e939-466d-8d8b-2e68b89ca2fe")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "#PWR014")
 					(unit 1)
@@ -5298,7 +5391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon Passives:Crystal CSTNE8M00GH5C000R0"
 			(at 78.105 40.64 0)
 			(effects
 				(font
@@ -5344,7 +5437,7 @@
 			(uuid "a11c85b2-af28-4ebe-9521-47bb9e53a442")
 		)
 		(instances
-			(project ""
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "Y1")
 					(unit 1)
@@ -5425,7 +5518,7 @@
 			(uuid "bfbed7df-00ad-463a-b6d4-cd25277d164c")
 		)
 		(instances
-			(project "Programmer"
+			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
 					(reference "R13")
 					(unit 1)
