@@ -5,8 +5,9 @@
 	(uuid "cc535603-c659-402f-b538-f547c321a764")
 	(paper "A5")
 	(title_block
-		(title "Target")
+		(title "Target interface")
 		(date "2025-08-15")
+		(rev "1.0.0")
 	)
 	(lib_symbols
 		(symbol "Picoballoon Mechanical & Misc:FPC socket 10P"

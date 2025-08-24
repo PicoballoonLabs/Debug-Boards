@@ -5,8 +5,9 @@
 	(uuid "da1883a8-e14e-423e-a074-9a4537fee7df")
 	(paper "A5")
 	(title_block
-		(title "Frontend")
+		(title "Target frontend")
 		(date "2025-08-15")
+		(rev "1.0.0")
 	)
 	(lib_symbols
 		(symbol "Picoballoon ICs:NMOS DMN2991UDA-7B"

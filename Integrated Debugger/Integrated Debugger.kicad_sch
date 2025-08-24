@@ -7,6 +7,7 @@
 	(title_block
 		(title "Debugger")
 		(date "2025-08-15")
+		(rev "1.0.0")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
@@ -7319,9 +7320,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 0 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 1.0000)
 		)
 		(uuid "1f474345-9816-463c-8085-128d97092ac0")
 		(property "Sheetname" "Power"
@@ -7380,9 +7382,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 0 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 1.0000)
 		)
 		(uuid "b916d44a-03d1-4a04-a023-19b38caca2ea")
 		(property "Sheetname" "MCU"
@@ -7532,9 +7535,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 0 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 1.0000)
 		)
 		(uuid "c1854176-18bb-4619-bb41-9308dd6d7253")
 		(property "Sheetname" "Target"
@@ -7634,9 +7638,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 0 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 255 0 1.0000)
 		)
 		(uuid "d9cee7b3-2b2b-4107-bac3-796b154ca54d")
 		(property "Sheetname" "Target Frontend"
