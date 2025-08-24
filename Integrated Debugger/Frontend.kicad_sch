@@ -1433,8 +1433,8 @@
 		)
 	)
 	(rectangle
-		(start 124.46 29.21)
-		(end 185.42 100.33)
+		(start 3.81 3.81)
+		(end 64.77 74.93)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1445,8 +1445,8 @@
 		(uuid b7e13296-1ee4-4596-9278-6076cb421def)
 	)
 	(rectangle
-		(start 14.605 29.845)
-		(end 98.425 85.725)
+		(start 66.675 3.81)
+		(end 150.495 60.325)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1458,7 +1458,7 @@
 	)
 	(text "TARGET RESET LOGIC"
 		(exclude_from_sim no)
-		(at 86.741 83.439 0)
+		(at 138.811 58.039 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 	)
 	(text "HOST <-> TARGET LEVEL SHIFTER"
 		(exclude_from_sim no)
-		(at 167.132 98.044 0)
+		(at 46.482 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1477,25 +1477,25 @@
 		(uuid "b9f2c2c0-afd0-4616-813d-4a3d192d21da")
 	)
 	(junction
-		(at 154.94 41.91)
+		(at 34.29 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9769a578-4d84-4cb3-977a-25c5e43d391f")
 	)
 	(junction
-		(at 59.055 53.975)
+		(at 110.49 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abbc0558-ac36-4c03-a560-9a5644a1277c")
 	)
 	(junction
-		(at 69.215 53.975)
+		(at 120.65 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfaf96d8-3219-4f58-ab21-021e54af1b08")
 	)
 	(bus_entry
-		(at 134.62 68.58)
+		(at 13.97 43.18)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1504,7 +1504,7 @@
 		(uuid "305a234e-0e22-41dc-95bc-a022d097ec04")
 	)
 	(bus_entry
-		(at 134.62 66.04)
+		(at 13.97 40.64)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1513,7 +1513,7 @@
 		(uuid "34aff847-79c7-4b4e-b510-442e3af0e39c")
 	)
 	(bus_entry
-		(at 41.275 51.435)
+		(at 92.71 25.4)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1522,7 +1522,7 @@
 		(uuid "740863f1-9459-499d-a7fc-721a06dc7aae")
 	)
 	(bus_entry
-		(at 134.62 58.42)
+		(at 13.97 33.02)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1531,7 +1531,7 @@
 		(uuid "7d8d02ff-3365-4ee1-a873-e766c1f7c590")
 	)
 	(bus_entry
-		(at 134.62 60.96)
+		(at 13.97 35.56)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1540,7 +1540,7 @@
 		(uuid "9da27ef7-cf37-49cc-815d-4a71b8a06f8e")
 	)
 	(bus_entry
-		(at 74.93 73.66)
+		(at 125.73 48.26)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1549,7 +1549,7 @@
 		(uuid "a2864d2b-0f1a-4106-9e31-22a3ca0421fc")
 	)
 	(bus_entry
-		(at 134.62 71.12)
+		(at 13.97 45.72)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1558,7 +1558,7 @@
 		(uuid "d1d7ee27-ce25-47a0-96da-f4bef4af0d4a")
 	)
 	(bus_entry
-		(at 134.62 63.5)
+		(at 13.97 38.1)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1568,7 +1568,7 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 60.96) (xy 134.62 63.5)
+			(xy 13.97 35.56) (xy 13.97 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 50.165) (xy 69.215 53.975)
+			(xy 120.65 24.13) (xy 120.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 53.975) (xy 73.025 53.975)
+			(xy 120.65 27.94) (xy 124.46 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1598,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 73.66) (xy 78.74 73.66)
+			(xy 125.73 48.26) (xy 129.54 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.815 57.785) (xy 43.815 53.975)
+			(xy 95.25 31.75) (xy 95.25 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1618,7 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 68.58) (xy 134.62 71.12)
+			(xy 13.97 43.18) (xy 13.97 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 58.42) (xy 171.45 58.42)
+			(xy 46.99 33.02) (xy 50.8 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1638,7 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 74.93) (xy 134.62 71.12)
+			(xy 13.97 49.53) (xy 13.97 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 73.025) (xy 64.135 76.2)
+			(xy 115.57 46.99) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 147.32 66.04)
+			(xy 16.51 40.64) (xy 26.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1668,7 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 66.04) (xy 134.62 68.58)
+			(xy 13.97 40.64) (xy 13.97 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 171.45 68.58)
+			(xy 46.99 43.18) (xy 50.8 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 55.88) (xy 171.45 55.88)
+			(xy 46.99 30.48) (xy 50.8 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 57.785) (xy 69.215 53.975)
+			(xy 120.65 31.75) (xy 120.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 57.785) (xy 53.975 53.975)
+			(xy 105.41 31.75) (xy 105.41 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 53.34) (xy 143.51 41.91)
+			(xy 22.86 27.94) (xy 22.86 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +1728,7 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 58.42) (xy 134.62 60.96)
+			(xy 13.97 33.02) (xy 13.97 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1738,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 147.32 60.96)
+			(xy 16.51 35.56) (xy 26.67 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1748,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 76.2) (xy 157.48 80.01)
+			(xy 36.83 50.8) (xy 36.83 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 66.04) (xy 171.45 66.04)
+			(xy 46.99 40.64) (xy 50.8 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 41.91) (xy 154.94 45.72)
+			(xy 34.29 16.51) (xy 34.29 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1778,7 @@
 	)
 	(bus
 		(pts
-			(xy 37.465 51.435) (xy 41.275 51.435)
+			(xy 88.9 25.4) (xy 92.71 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1788,7 +1788,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 171.45 60.96)
+			(xy 46.99 35.56) (xy 50.8 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1798,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 76.2) (xy 72.39 76.2)
+			(xy 115.57 50.8) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 38.1) (xy 154.94 41.91)
+			(xy 34.29 12.7) (xy 34.29 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1818,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 53.975) (xy 59.055 50.165)
+			(xy 110.49 27.94) (xy 110.49 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1828,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 53.34) (xy 143.51 53.34)
+			(xy 26.67 27.94) (xy 22.86 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1838,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 55.88) (xy 147.32 55.88)
+			(xy 16.51 30.48) (xy 26.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1848,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 147.32 58.42)
+			(xy 16.51 33.02) (xy 26.67 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1858,7 +1858,7 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 63.5) (xy 134.62 66.04)
+			(xy 13.97 38.1) (xy 13.97 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1868,7 +1868,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 53.975) (xy 53.975 53.975)
+			(xy 110.49 27.94) (xy 105.41 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1878,7 +1878,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 41.91) (xy 160.02 45.72)
+			(xy 39.37 16.51) (xy 39.37 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1888,7 +1888,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 76.835) (xy 48.895 73.025)
+			(xy 100.33 50.8) (xy 100.33 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1898,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 63.5) (xy 147.32 63.5)
+			(xy 16.51 38.1) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1908,7 +1908,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 57.785) (xy 59.055 53.975)
+			(xy 110.49 31.75) (xy 110.49 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1918,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 68.58) (xy 147.32 68.58)
+			(xy 16.51 43.18) (xy 26.67 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1928,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 63.5) (xy 171.45 63.5)
+			(xy 46.99 38.1) (xy 50.8 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1938,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 38.735) (xy 69.215 42.545)
+			(xy 120.65 12.7) (xy 120.65 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 41.91) (xy 154.94 41.91)
+			(xy 22.86 16.51) (xy 34.29 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1957,7 @@
 		(uuid "fe41da19-7ffa-4de2-9cda-b43e4e3696da")
 	)
 	(label "i.TMS"
-		(at 138.43 66.04 0)
+		(at 17.78 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1967,7 +1967,7 @@
 		(uuid "2f78e0c2-6366-482d-830a-5fab0aada39b")
 	)
 	(label "i.RX"
-		(at 138.43 55.88 0)
+		(at 17.78 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 		(uuid "3ea5380f-5746-4576-a19b-6b94f038bed2")
 	)
 	(label "i.RST_SEN"
-		(at 43.815 53.975 0)
+		(at 95.25 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 		(uuid "6174d187-9682-446c-8650-2acfde3c871c")
 	)
 	(label "i.TDI"
-		(at 138.43 68.58 0)
+		(at 17.78 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 		(uuid "68944062-1b00-4c5b-ad48-c37379387535")
 	)
 	(label "i.TX"
-		(at 138.43 58.42 0)
+		(at 17.78 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2007,7 +2007,7 @@
 		(uuid "71fff1a3-829c-426e-8269-60daf9738e7a")
 	)
 	(label "i.TCK"
-		(at 138.43 63.5 0)
+		(at 17.78 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2017,7 +2017,7 @@
 		(uuid "9650864c-6396-4f91-8a38-83fca6796363")
 	)
 	(label "i.RST"
-		(at 66.675 76.2 0)
+		(at 118.11 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 		(uuid "b5902b83-a48b-4b45-81ff-06169785ab0a")
 	)
 	(label "i.TDO"
-		(at 138.43 60.96 0)
+		(at 17.78 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2038,7 +2038,7 @@
 	)
 	(hierarchical_label "xTDI"
 		(shape output)
-		(at 171.45 68.58 0)
+		(at 50.8 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 	)
 	(hierarchical_label "xRST"
 		(shape output)
-		(at 73.025 53.975 0)
+		(at 124.46 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2060,7 +2060,7 @@
 	)
 	(hierarchical_label "i{TARGET_BUS}"
 		(shape bidirectional)
-		(at 37.465 51.435 180)
+		(at 88.9 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 	)
 	(hierarchical_label "xRXD"
 		(shape input)
-		(at 171.45 55.88 0)
+		(at 50.8 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2082,7 +2082,7 @@
 	)
 	(hierarchical_label "xTCK"
 		(shape output)
-		(at 171.45 63.5 0)
+		(at 50.8 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2093,7 +2093,7 @@
 	)
 	(hierarchical_label "i{TARGET_BUS}"
 		(shape bidirectional)
-		(at 78.74 73.66 0)
+		(at 129.54 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2104,7 +2104,7 @@
 	)
 	(hierarchical_label "xRST"
 		(shape output)
-		(at 48.895 76.835 270)
+		(at 100.33 50.8 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2115,7 +2115,7 @@
 	)
 	(hierarchical_label "xTMS"
 		(shape bidirectional)
-		(at 171.45 66.04 0)
+		(at 50.8 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2126,7 +2126,7 @@
 	)
 	(hierarchical_label "i{TARGET_BUS}"
 		(shape bidirectional)
-		(at 134.62 74.93 270)
+		(at 13.97 49.53 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2137,7 +2137,7 @@
 	)
 	(hierarchical_label "xTXD"
 		(shape output)
-		(at 171.45 58.42 0)
+		(at 50.8 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 	)
 	(hierarchical_label "xTDO"
 		(shape input)
-		(at 171.45 60.96 0)
+		(at 50.8 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 157.48 80.01 0)
+		(at 36.83 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2168,7 +2168,7 @@
 		(fields_autoplaced yes)
 		(uuid "067d46e9-fffe-4b00-b427-455ee30563a2")
 		(property "Reference" "#PWR037"
-			(at 157.48 86.36 0)
+			(at 36.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 83.82 0)
+			(at 36.83 58.42 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2186,7 +2186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 80.01 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 80.01 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 80.01 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor")
-		(at 69.215 46.355 0)
+		(at 120.65 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2235,7 +2235,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bdeb171-618f-4582-96fa-e8ded7730b02")
 		(property "Reference" "R16"
-			(at 70.485 45.4025 0)
+			(at 121.92 19.3675 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2245,7 +2245,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 70.485 47.3075 0)
+			(at 121.92 21.2725 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor 0201"
-			(at 67.437 46.355 90)
+			(at 118.872 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.215 46.355 0)
+			(at 120.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2273,7 @@
 			)
 		)
 		(property "Description" "Generic Resistor"
-			(at 69.215 46.355 0)
+			(at 120.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(property "MPN" "ERJ1GNF1002C "
-			(at 69.215 46.355 0)
+			(at 120.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2291,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C717002"
-			(at 69.215 46.355 0)
+			(at 120.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2300,7 @@
 			)
 		)
 		(property "LCSC Part #" "C717002"
-			(at 69.215 46.355 0)
+			(at 120.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2325,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 59.055 50.165 180)
+		(at 110.49 24.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2334,7 +2334,7 @@
 		(fields_autoplaced yes)
 		(uuid "25655255-3d33-4be0-ab53-3bb0282c7fa7")
 		(property "Reference" "#PWR017"
-			(at 59.055 43.815 0)
+			(at 110.49 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.055 46.355 0)
+			(at 110.49 20.32 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.055 50.165 0)
+			(at 110.49 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.055 50.165 0)
+			(at 110.49 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.055 50.165 0)
+			(at 110.49 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 160.02 41.91 0)
+		(at 39.37 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2401,7 +2401,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa3908ed-a444-4fcf-863b-0d5844958296")
 		(property "Reference" "#PWR035"
-			(at 160.02 45.72 0)
+			(at 39.37 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2410,7 @@
 			)
 		)
 		(property "Value" "xTPWR"
-			(at 160.02 38.354 0)
+			(at 39.37 12.954 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 41.91 0)
+			(at 39.37 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 41.91 0)
+			(at 39.37 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 160.02 41.91 0)
+			(at 39.37 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 154.94 38.1 0)
+		(at 34.29 12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2468,7 +2468,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac4bf6fb-5339-4e39-be67-929c0c9f7479")
 		(property "Reference" "#PWR034"
-			(at 154.94 41.91 0)
+			(at 34.29 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2477,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 154.94 34.544 0)
+			(at 34.29 9.144 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 38.1 0)
+			(at 34.29 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 38.1 0)
+			(at 34.29 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 154.94 38.1 0)
+			(at 34.29 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2526,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon ICs:TXB0106RGY")
-		(at 157.48 60.96 0)
+		(at 36.83 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2535,7 +2535,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd2362f9-1fe5-41ea-8e78-b2f00e48954a")
 		(property "Reference" "U4"
-			(at 159.6233 76.2 0)
+			(at 38.9733 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(property "Value" "TXB0106RGY"
-			(at 159.6233 78.74 0)
+			(at 38.9733 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:Texas_RGY_R-PVQFN-N16_EP2.05x2.55mm"
-			(at 157.48 80.01 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2562,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0106.pdf"
-			(at 157.48 66.04 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2571,7 @@
 			)
 		)
 		(property "Description" "6-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, VQFN-16"
-			(at 157.48 60.96 0)
+			(at 36.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2580,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2652978"
-			(at 157.48 60.96 0)
+			(at 36.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2589,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2652978"
-			(at 157.48 60.96 0)
+			(at 36.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2598,7 @@
 			)
 		)
 		(property "MPN" "TXB0106RGY"
-			(at 157.48 60.96 0)
+			(at 36.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2668,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 69.215 38.735 0)
+		(at 120.65 12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2677,7 +2677,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe74cfbc-30bd-44df-bdbc-a89789e56571")
 		(property "Reference" "#PWR018"
-			(at 69.215 42.545 0)
+			(at 120.65 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2686,7 @@
 			)
 		)
 		(property "Value" "TARGET"
-			(at 69.215 35.179 0)
+			(at 120.65 9.144 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.215 38.735 0)
+			(at 120.65 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.215 38.735 0)
+			(at 120.65 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 69.215 38.735 0)
+			(at 120.65 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2735,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon ICs:NMOS DMN2991UDA-7B")
-		(at 56.515 65.405 90)
+		(at 107.95 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2744,7 +2744,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffa59de8-395e-4ed5-9332-b63c20b1fa3e")
 		(property "Reference" "Q1"
-			(at 41.275 67.9451 90)
+			(at 92.71 41.9101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property "Value" "NMOS DMN2991UDA-7B"
-			(at 41.275 65.4051 90)
+			(at 92.71 39.3701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:X2-DFN0806-6"
-			(at 41.275 62.8651 90)
+			(at 92.71 36.8301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2772,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2991UDA.pdf"
-			(at 251.435 46.355 0)
+			(at 302.87 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +2782,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFET BVDSS: 8V~24V X2-DFN0806-6 T&R 10K"
-			(at 74.93 65.405 0)
+			(at 126.365 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2791,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2937136 "
-			(at 56.515 65.405 90)
+			(at 107.95 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2800,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2937136 "
-			(at 56.515 65.405 90)
+			(at 107.95 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2809,7 @@
 			)
 		)
 		(property "MPN" "DMN2991UDA-7B"
-			(at 56.515 65.405 90)
+			(at 107.95 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)

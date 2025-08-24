@@ -1166,8 +1166,8 @@
 		)
 	)
 	(rectangle
-		(start 114.3 12.7)
-		(end 139.7 63.5)
+		(start 81.915 3.81)
+		(end 107.315 54.61)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1178,8 +1178,8 @@
 		(uuid 148add25-479b-483f-a387-2da7ca31556f)
 	)
 	(rectangle
-		(start 12.7 76.2)
-		(end 88.9 139.7)
+		(start 3.81 56.515)
+		(end 80.01 119.38)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1190,8 +1190,8 @@
 		(uuid a3a2889f-f008-452a-ace5-1d5d25c07d38)
 	)
 	(rectangle
-		(start 12.7 12.7)
-		(end 88.9 63.5)
+		(start 3.81 3.81)
+		(end 80.01 54.61)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1203,7 +1203,7 @@
 	)
 	(text "MANUAL TARGET RESET"
 		(exclude_from_sim no)
-		(at 127 61.214 0)
+		(at 94.615 52.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1213,7 +1213,7 @@
 	)
 	(text "PB-CONN TARGET"
 		(exclude_from_sim no)
-		(at 78.486 61.214 0)
+		(at 69.596 52.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1223,7 +1223,7 @@
 	)
 	(text "FPC TARGET"
 		(exclude_from_sim no)
-		(at 81.534 137.414 0)
+		(at 72.644 117.094 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1232,20 +1232,20 @@
 		(uuid "9b0aeff4-5be1-443c-97c6-b12e77d07b91")
 	)
 	(junction
-		(at 54.61 123.19)
+		(at 45.72 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a06d0b8f-3b0a-4328-bdca-1842aca2fa8f")
 	)
 	(junction
-		(at 36.83 100.33)
+		(at 27.94 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef8cec56-bf7c-4eb5-abe2-1902313ea65e")
 	)
 	(wire
 		(pts
-			(xy 48.26 88.9) (xy 48.26 92.71)
+			(xy 39.37 68.58) (xy 39.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 100.33) (xy 36.83 123.19)
+			(xy 27.94 80.01) (xy 27.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1265,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 107.95) (xy 52.07 107.95)
+			(xy 39.37 87.63) (xy 43.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1275,7 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 66.04 36.83)
+			(xy 53.34 27.94) (xy 57.15 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 100.33) (xy 52.07 100.33)
+			(xy 27.94 80.01) (xy 43.18 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 46.99) (xy 66.04 46.99)
+			(xy 53.34 38.1) (xy 57.15 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 127 49.53)
+			(xy 93.98 33.02) (xy 93.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 24.13) (xy 127 31.75)
+			(xy 93.98 15.24) (xy 93.98 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 66.04 41.91)
+			(xy 53.34 33.02) (xy 57.15 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 88.9) (xy 33.02 97.79)
+			(xy 24.13 68.58) (xy 24.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 102.87) (xy 52.07 102.87)
+			(xy 39.37 82.55) (xy 43.18 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 36.83) (xy 25.4 36.83)
+			(xy 30.48 27.94) (xy 16.51 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 54.61 123.19)
+			(xy 45.72 99.06) (xy 45.72 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1375,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 105.41) (xy 52.07 105.41)
+			(xy 39.37 85.09) (xy 43.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 34.29) (xy 35.56 34.29)
+			(xy 30.48 25.4) (xy 26.67 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1395,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 39.37) (xy 66.04 39.37)
+			(xy 53.34 30.48) (xy 57.15 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 46.99) (xy 35.56 46.99)
+			(xy 30.48 38.1) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 97.79) (xy 33.02 97.79)
+			(xy 43.18 77.47) (xy 24.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 95.25) (xy 36.83 100.33)
+			(xy 27.94 74.93) (xy 27.94 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 46.99) (xy 35.56 50.8)
+			(xy 26.67 38.1) (xy 26.67 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1445,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 30.48) (xy 35.56 34.29)
+			(xy 26.67 21.59) (xy 26.67 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 113.03) (xy 52.07 113.03)
+			(xy 39.37 92.71) (xy 43.18 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 48.26 92.71)
+			(xy 43.18 72.39) (xy 39.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1475,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 123.19) (xy 54.61 127)
+			(xy 45.72 102.87) (xy 45.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 34.29) (xy 66.04 34.29)
+			(xy 53.34 25.4) (xy 57.15 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 95.25) (xy 36.83 95.25)
+			(xy 43.18 74.93) (xy 27.94 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 110.49) (xy 52.07 110.49)
+			(xy 39.37 90.17) (xy 43.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 115.57) (xy 52.07 115.57)
+			(xy 39.37 95.25) (xy 43.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 123.19) (xy 36.83 123.19)
+			(xy 45.72 102.87) (xy 27.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 30.48) (xy 25.4 36.83)
+			(xy 16.51 21.59) (xy 16.51 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 44.45) (xy 66.04 44.45)
+			(xy 53.34 35.56) (xy 57.15 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1555,7 +1555,7 @@
 	)
 	(hierarchical_label "tTCK"
 		(shape input)
-		(at 48.26 110.49 180)
+		(at 39.37 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1566,7 +1566,7 @@
 	)
 	(hierarchical_label "tTXD"
 		(shape input)
-		(at 48.26 105.41 180)
+		(at 39.37 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1577,7 +1577,7 @@
 	)
 	(hierarchical_label "tRXD"
 		(shape output)
-		(at 48.26 102.87 180)
+		(at 39.37 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1588,7 +1588,7 @@
 	)
 	(hierarchical_label "tRST"
 		(shape input)
-		(at 48.26 115.57 180)
+		(at 39.37 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1599,7 +1599,7 @@
 	)
 	(hierarchical_label "tRST"
 		(shape input)
-		(at 127 24.13 90)
+		(at 93.98 15.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1610,7 +1610,7 @@
 	)
 	(hierarchical_label "tRXD"
 		(shape output)
-		(at 66.04 34.29 0)
+		(at 57.15 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1621,7 +1621,7 @@
 	)
 	(hierarchical_label "tTDO"
 		(shape output)
-		(at 66.04 44.45 0)
+		(at 57.15 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1632,7 +1632,7 @@
 	)
 	(hierarchical_label "tTDO"
 		(shape output)
-		(at 48.26 113.03 180)
+		(at 39.37 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1643,7 +1643,7 @@
 	)
 	(hierarchical_label "tRST"
 		(shape input)
-		(at 66.04 46.99 0)
+		(at 57.15 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1654,7 +1654,7 @@
 	)
 	(hierarchical_label "tTCK"
 		(shape input)
-		(at 66.04 41.91 0)
+		(at 57.15 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,7 +1665,7 @@
 	)
 	(hierarchical_label "tTMS"
 		(shape bidirectional)
-		(at 48.26 107.95 180)
+		(at 39.37 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 	)
 	(hierarchical_label "tTXD"
 		(shape input)
-		(at 66.04 36.83 0)
+		(at 57.15 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,7 +1687,7 @@
 	)
 	(hierarchical_label "tTMS"
 		(shape bidirectional)
-		(at 66.04 39.37 0)
+		(at 57.15 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1698,7 +1698,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:FPC socket 10P")
-		(at 57.15 102.87 0)
+		(at 48.26 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1707,7 +1707,7 @@
 		(fields_autoplaced yes)
 		(uuid "32d44142-e98c-4ab4-83b8-a68091535026")
 		(property "Reference" "J3"
-			(at 58.42 104.1399 0)
+			(at 49.53 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1716,7 @@
 			)
 		)
 		(property "Value" "FPC socket 10P"
-			(at 57.15 127 0)
+			(at 48.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1725,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:FPC connector FPC-05F-10PH20"
-			(at 57.15 120.65 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 102.87 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 57.15 124.46 0)
+			(at 48.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1752,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2856798"
-			(at 57.15 102.87 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1761,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2856798"
-			(at 57.15 102.87 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1770,7 @@
 			)
 		)
 		(property "MPN" "FPC-05F-10PH20"
-			(at 57.15 102.87 0)
+			(at 48.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1825,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 35.56 30.48 0)
+		(at 26.67 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1833,7 +1833,7 @@
 		(dnp no)
 		(uuid "44753e15-eb58-4693-a3c1-5d654e203954")
 		(property "Reference" "#PWR024"
-			(at 35.56 34.29 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1842,7 @@
 			)
 		)
 		(property "Value" "V_TARGET"
-			(at 35.56 26.67 0)
+			(at 26.67 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 30.48 0)
+			(at 26.67 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 30.48 0)
+			(at 26.67 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 30.48 0)
+			(at 26.67 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1890,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 25.4 30.48 0)
+		(at 16.51 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1898,7 +1898,7 @@
 		(dnp no)
 		(uuid "453dae13-5404-4fe2-9a28-08011d791de4")
 		(property "Reference" "#PWR026"
-			(at 25.4 34.29 0)
+			(at 16.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1907,7 @@
 			)
 		)
 		(property "Value" "V_SOLAR"
-			(at 25.4 26.67 0)
+			(at 16.51 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 30.48 0)
+			(at 16.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 30.48 0)
+			(at 16.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 30.48 0)
+			(at 16.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1955,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 35.56 50.8 0)
+		(at 26.67 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1963,7 +1963,7 @@
 		(dnp no)
 		(uuid "63b921c9-72a8-4add-9fac-0ebf035cf0ab")
 		(property "Reference" "#PWR028"
-			(at 35.56 57.15 0)
+			(at 26.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1972,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 54.61 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 50.8 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 50.8 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 50.8 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2020,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 127 49.53 0)
+		(at 93.98 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2028,7 +2028,7 @@
 		(dnp no)
 		(uuid "951be146-2a96-4c0c-99da-5a8a66d38b41")
 		(property "Reference" "#PWR036"
-			(at 127 55.88 0)
+			(at 93.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 53.34 0)
+			(at 93.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 49.53 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 49.53 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 49.53 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:Switch SPST")
-		(at 127 36.83 90)
+		(at 93.98 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2094,7 +2094,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab7b5e1f-54c1-4674-afe2-211b4449492b")
 		(property "Reference" "SW1"
-			(at 128.27 35.5599 90)
+			(at 95.25 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2103,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 128.27 38.0999 90)
+			(at 95.25 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2112,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:Button GT-TC029B-H025-L1N"
-			(at 127 36.83 0)
+			(at 93.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 36.83 0)
+			(at 93.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2130,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 132.08 36.83 0)
+			(at 99.06 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C843669"
-			(at 127 36.83 90)
+			(at 93.98 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 			)
 		)
 		(property "LCSC Part #" "C843669"
-			(at 127 36.83 90)
+			(at 93.98 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "MPN" "GT-TC029B-H025-L1N"
-			(at 127 36.83 90)
+			(at 93.98 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2182,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 33.02 88.9 0)
+		(at 24.13 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2190,7 +2190,7 @@
 		(dnp no)
 		(uuid "d3b45682-b25b-424e-89e6-60a676a6ead5")
 		(property "Reference" "#PWR027"
-			(at 33.02 92.71 0)
+			(at 24.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2199,7 @@
 			)
 		)
 		(property "Value" "V_SOLAR"
-			(at 33.02 85.09 0)
+			(at 24.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 88.9 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 88.9 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 88.9 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 48.26 88.9 0)
+		(at 39.37 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2255,7 +2255,7 @@
 		(dnp no)
 		(uuid "dc53f139-b2e9-47c3-9a88-cf9411da7a29")
 		(property "Reference" "#PWR025"
-			(at 48.26 92.71 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2264,7 @@
 			)
 		)
 		(property "Value" "V_TARGET"
-			(at 48.26 85.09 0)
+			(at 39.37 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 88.9 0)
+			(at 39.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 88.9 0)
+			(at 39.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 88.9 0)
+			(at 39.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2312,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:Picoballoon connector 2x5")
-		(at 50.8 40.64 0)
+		(at 41.91 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2321,7 +2321,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef83e5c1-d274-44ba-a399-17b7b1c0378b")
 		(property "Reference" "J4"
-			(at 41.91 30.48 0)
+			(at 33.02 21.59 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2331,7 +2331,7 @@
 			)
 		)
 		(property "Value" "20021521-00010T1LF"
-			(at 41.91 50.165 0)
+			(at 33.02 41.275 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:20021521-00010T1LF"
-			(at 50.8 55.88 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 38.1 0)
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 38.1 0)
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2368,7 @@
 			)
 		)
 		(property "MPN" "20021521-00010T1LF"
-			(at 50.8 58.42 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2377,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2972785"
-			(at 50.8 60.325 0)
+			(at 41.91 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2386,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2972785"
-			(at 50.8 40.64 0)
+			(at 41.91 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2435,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 54.61 127 0)
+		(at 45.72 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2443,7 +2443,7 @@
 		(dnp no)
 		(uuid "eff57bb5-3454-4a2e-8ac1-2b840a7df4a3")
 		(property "Reference" "#PWR029"
-			(at 54.61 133.35 0)
+			(at 45.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 130.81 0)
+			(at 45.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 127 0)
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 127 0)
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 127 0)
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
