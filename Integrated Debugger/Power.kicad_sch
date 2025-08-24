@@ -5,7 +5,7 @@
 	(uuid "3a99c70c-51fc-4109-ad87-9e86fc5bd29b")
 	(paper "A5")
 	(title_block
-		(title "Power")
+		(title "Power supply")
 		(date "2025-08-15")
 		(rev "1.0.0")
 	)
@@ -2095,7 +2095,7 @@
 		(uuid "4af8df30-2a67-4ef0-b777-8329a8630636")
 	)
 	(junction
-		(at 24.13 106.68)
+		(at 22.86 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d3a081e-9181-402f-9e05-dc74e5c12561")
@@ -2107,7 +2107,7 @@
 		(uuid "4ebc8f6a-658c-4509-ba2e-f96ff492c967")
 	)
 	(junction
-		(at 72.39 106.68)
+		(at 69.85 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ed3c212-5090-49c4-9f05-b2f09fed0dc0")
@@ -2216,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 80.01 106.68)
+			(xy 69.85 106.68) (xy 77.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 106.68) (xy 24.13 109.22)
+			(xy 22.86 106.68) (xy 22.86 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 106.68) (xy 91.44 106.68)
+			(xy 85.09 106.68) (xy 88.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 91.44 106.68)
+			(xy 88.9 101.6) (xy 88.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 72.39 109.22)
+			(xy 69.85 106.68) (xy 69.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 101.6) (xy 24.13 106.68)
+			(xy 22.86 101.6) (xy 22.86 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 106.68) (xy 62.23 106.68)
+			(xy 59.69 106.68) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 116.84) (xy 72.39 119.38)
+			(xy 69.85 116.84) (xy 69.85 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 106.68) (xy 41.91 106.68)
+			(xy 22.86 106.68) (xy 41.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 116.84) (xy 24.13 119.38)
+			(xy 22.86 116.84) (xy 22.86 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3036,16 +3036,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 106.68) (xy 72.39 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef52856f-a011-40d3-b0ee-2ecf0c3207e6")
-	)
-	(wire
-		(pts
 			(xy 124.46 92.71) (xy 127 92.71)
 		)
 		(stroke
@@ -3066,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 101.6) (xy 72.39 106.68)
+			(xy 69.85 101.6) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01be6ec4-c234-48f9-8ac7-a69f88069e20")
-		(property "Reference" "R20"
+		(property "Reference" "R14"
 			(at 38.1 113.3475 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3253,7 +3243,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R20")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3269,7 +3259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "021ff40a-3705-49a4-a3bf-a814ff668de9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR031"
 			(at 26.67 43.18 0)
 			(effects
 				(font
@@ -3320,7 +3310,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR03")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3328,15 +3318,15 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 72.39 119.38 0)
+		(at 69.85 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "04e11f5f-6c1a-49dc-a826-df934de965cc")
-		(property "Reference" "#PWR040"
-			(at 72.39 125.73 0)
+		(property "Reference" "#PWR039"
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 119.38 0)
+			(at 69.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 119.38 0)
+			(at 69.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 119.38 0)
+			(at 69.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3375,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f55b2fd-cdae-47de-8ab4-ef35b3bdaefe")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 72.39 82.55 0)
 			(effects
 				(font
@@ -3450,7 +3440,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3458,15 +3448,15 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 72.39 101.6 0)
+		(at 69.85 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "11813615-38b5-4a27-b19a-6d5c2aca717c")
-		(property "Reference" "#PWR039"
-			(at 72.39 105.41 0)
+		(property "Reference" "#PWR038"
+			(at 69.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3465,7 @@
 			)
 		)
 		(property "Value" "V_TARGET"
-			(at 72.39 97.79 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +3473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 101.6 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 101.6 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 101.6 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,103 +3505,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Passives:Schottky diode")
-		(at 66.04 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1581c128-90ff-4ed1-9d61-c9fbad05e3c9")
-		(property "Reference" "D7"
-			(at 66.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG3005EL,315"
-			(at 66.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Diode SOD-882"
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, filled shape"
-			(at 66.04 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PMEG3005EL,315 "
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C282565"
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C282565"
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "371471c1-be0e-456e-a949-68d53adc1377")
-		)
-		(pin "2"
-			(uuid "928c6d7e-e49d-494f-8543-767e97cc62be")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "D7")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18fe741b-9a9e-4221-9f8c-91200f4f96c0")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 76.835 23.495 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3710,7 +3604,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3726,7 +3620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a47d7ce-e912-4b13-9671-c65e7d95878d")
-		(property "Reference" "R5"
+		(property "Reference" "R16"
 			(at 121.92 43.4975 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3809,7 +3703,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R5")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3825,7 +3719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c9416c3-fe3c-4cbd-8859-8c1511c6f847")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 44.45 102.235 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3943,7 +3837,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4061,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24c9ea91-a793-4fa3-afec-db61912929b7")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 44.45 59.055 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4179,7 +4073,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27edeb42-6c6c-461e-9bce-8d9f5c7ba767")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR035"
 			(at 62.23 125.73 0)
 			(effects
 				(font
@@ -4244,7 +4138,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR038")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ca583bf-647e-49bb-a158-eadbbd4eb69b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 62.23 82.55 0)
 			(effects
 				(font
@@ -4309,7 +4203,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a66871e-97d9-4b2d-a23a-8c585a023a26")
-		(property "Reference" "R7"
+		(property "Reference" "R18"
 			(at 161.29 43.4975 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4408,7 +4302,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R7")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4424,7 +4318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403af805-eb35-4e0b-b227-d87424f46f1d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR042"
 			(at 123.19 20.32 0)
 			(effects
 				(font
@@ -4475,7 +4369,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR023")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4491,7 +4385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45d6314e-49cd-467c-b963-18a35cf3f53b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR033"
 			(at 39.37 125.73 0)
 			(effects
 				(font
@@ -4541,7 +4435,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR022")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4659,7 +4553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e95f6f4-5158-439d-b653-d42ebb855761")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 67.945 23.495 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4769,7 +4663,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4784,7 +4678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "674e6f25-cbca-4fee-b917-b8ad69eb8cac")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 133.985 92.075 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4894,7 +4788,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4902,7 +4796,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 83.82 106.68 270)
+		(at 81.28 106.68 270)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4910,7 +4804,7 @@
 		(dnp no)
 		(uuid "6aa92ea3-ecff-4c2f-8449-0e1ac7ee1c78")
 		(property "Reference" "RN1"
-			(at 83.82 111.252 90)
+			(at 81.28 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +4812,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 83.82 109.22 90)
+			(at 81.28 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4820,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 83.82 104.648 90)
+			(at 81.28 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 106.68 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4838,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 78.74 114.3 90)
+			(at 76.2 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +4847,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C695200"
-			(at 83.82 106.68 90)
+			(at 81.28 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +4856,7 @@
 			)
 		)
 		(property "LCSC Part #" "C695200"
-			(at 83.82 106.68 90)
+			(at 81.28 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +4865,7 @@
 			)
 		)
 		(property "MPN" "YC248-JR-07100RL"
-			(at 83.82 106.68 90)
+			(at 81.28 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +4940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bc21f9e-6f1b-4be1-81b7-0e50ea8da21e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -5096,7 +4990,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5112,7 +5006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "715a959e-e0df-4ef1-9d44-99ff64c05bc1")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 40.64 14.605 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5213,7 +5107,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5229,7 +5123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73657f3a-15dc-47d2-9799-f8ac0bc44f56")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -5309,7 +5203,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5317,7 +5211,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 24.13 119.38 0)
+		(at 22.86 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5325,8 +5219,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76d376da-49e2-41bd-be4f-cda33b6de0e7")
-		(property "Reference" "#PWR06"
-			(at 24.13 125.73 0)
+		(property "Reference" "#PWR029"
+			(at 22.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 123.19 0)
+			(at 22.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 119.38 0)
+			(at 22.86 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 119.38 0)
+			(at 22.86 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 119.38 0)
+			(at 22.86 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5269,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR06")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5277,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 91.44 101.6 0)
+		(at 88.9 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5391,8 +5285,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "895a7934-61a2-46d1-a6c0-81b40c9bb885")
-		(property "Reference" "#PWR043"
-			(at 91.44 105.41 0)
+		(property "Reference" "#PWR041"
+			(at 88.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5295,7 @@
 			)
 		)
 		(property "Value" "xTPWR"
-			(at 91.44 98.044 0)
+			(at 88.9 98.044 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5410,7 +5304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 101.6 0)
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 101.6 0)
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 101.6 0)
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5336,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5458,7 +5352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c95daa9-d878-4c18-869b-a6bbd1882c5c")
-		(property "Reference" "R6"
+		(property "Reference" "R17"
 			(at 161.29 23.1775 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5541,7 +5435,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R6")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5557,7 +5451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3d20d9a-73ff-40ea-971c-57b76bbfca50")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 38.1 70.1675 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5640,7 +5534,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5655,7 +5549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a65449c7-7f2f-4b34-b633-943e05d2d093")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 171.45 62.23 0)
 			(effects
 				(font
@@ -5705,7 +5599,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5713,7 +5607,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 24.13 101.6 0)
+		(at 22.86 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5721,8 +5615,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68c9611-00fc-4723-bc61-9a977309ff1a")
-		(property "Reference" "#PWR05"
-			(at 24.13 105.41 0)
+		(property "Reference" "#PWR028"
+			(at 22.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +5625,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 24.13 98.044 0)
+			(at 22.86 98.044 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5740,7 +5634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 101.6 0)
+			(at 22.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 101.6 0)
+			(at 22.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 24.13 101.6 0)
+			(at 22.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5666,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR05")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5788,7 +5682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9b3a7dd-8da8-436b-9e9f-8ced164d5e41")
-		(property "Reference" "R4"
+		(property "Reference" "R15"
 			(at 121.92 23.1775 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5871,7 +5765,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R4")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5879,7 +5773,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Passives:Capacitor")
-		(at 24.13 113.03 0)
+		(at 22.86 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5887,8 +5781,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae40edf6-7ed7-4cb9-ac08-d3b09f77f9d0")
-		(property "Reference" "C15"
-			(at 23.495 111.125 0)
+		(property "Reference" "C9"
+			(at 22.225 111.125 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5898,7 +5792,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 23.495 114.935 0)
+			(at 22.225 114.935 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5908,7 +5802,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Capacitor 0201"
-			(at 24.13 123.825 0)
+			(at 22.86 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +5820,7 @@
 			)
 		)
 		(property "Description" "Generic MLCC"
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5829,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61A104KE15D"
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +5838,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5847,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5856,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5865,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C76934"
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5874,7 @@
 			)
 		)
 		(property "LCSC Part #" "C76934"
-			(at 24.13 113.03 0)
+			(at 22.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5891,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C15")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6013,7 +5907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0580857-c12b-433a-8905-ed396d489693")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR040"
 			(at 76.2 17.78 0)
 			(effects
 				(font
@@ -6064,7 +5958,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR07")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6174,15 +6068,15 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Passives:Capacitor")
-		(at 72.39 113.03 0)
+		(at 69.85 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bcea11e2-250d-4323-8353-ac3aa738ddd9")
-		(property "Reference" "C16"
-			(at 73.025 111.125 0)
+		(property "Reference" "C13"
+			(at 70.485 111.125 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6192,7 +6086,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 73.025 114.935 0)
+			(at 70.485 114.935 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6202,7 +6096,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Capacitor 0201"
-			(at 72.39 123.825 0)
+			(at 69.85 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6114,7 @@
 			)
 		)
 		(property "Description" "Generic MLCC"
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6123,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61A104KE15D"
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6132,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6141,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +6150,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6159,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C76934"
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,7 +6168,7 @@
 			)
 		)
 		(property "LCSC Part #" "C76934"
-			(at 72.39 113.03 0)
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6185,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6306,7 +6200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be96e913-8282-4c5c-8258-4d3a75f985a0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -6356,7 +6250,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6372,7 +6266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd9d963-9b10-4046-a3fb-bcea83848431")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 27.305 23.495 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6455,7 +6349,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6471,7 +6365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c02e9853-52a9-4825-889d-1cc528398db8")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 23.495 67.945 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6581,7 +6475,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C13")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6596,7 +6490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b05d4e-6535-4f30-9cc0-65143bf15c72")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 73.025 67.945 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6706,7 +6600,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6721,7 +6615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1cf7b68-94f7-4670-b938-483da75ec381")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -6771,7 +6665,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6787,7 +6681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca7320f4-82aa-4709-b45c-cfedc481892f")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR027"
 			(at 24.13 82.55 0)
 			(effects
 				(font
@@ -6837,7 +6731,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR0101")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6852,7 +6746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc604120-d4d5-4e34-bc30-82a3a91728b1")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR036"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -6902,7 +6796,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR0102")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6918,7 +6812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d36a72-97a3-4889-8e26-86a5b91c748f")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 162.56 20.32 0)
 			(effects
 				(font
@@ -6969,7 +6863,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6983,9 +6877,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9549ad7-7d25-4f8d-b484-0cf31151f6df")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR030"
 			(at 26.67 17.78 0)
 			(effects
 				(font
@@ -6995,7 +6888,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 26.67 8.89 0)
+			(at 26.67 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +6928,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR02")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7050,7 +6943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e032b603-af30-42d3-bef5-1f3b81800664")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR045"
 			(at 132.08 62.23 0)
 			(effects
 				(font
@@ -7100,7 +6993,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR020")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7114,9 +7007,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef603ceb-f9ac-4e55-84be-4a4c85a80da0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR026"
 			(at 24.13 62.23 0)
 			(effects
 				(font
@@ -7126,7 +7018,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 24.13 53.34 0)
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7058,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR047")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5b195e4-aa7d-4479-acbc-f6d15b637c54")
-		(property "Reference" "C11"
+		(property "Reference" "C16"
 			(at 142.875 92.075 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7265,7 +7157,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)

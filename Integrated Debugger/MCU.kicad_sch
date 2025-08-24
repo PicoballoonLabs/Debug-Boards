@@ -2405,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 43.18) (xy 115.57 43.18)
+			(xy 121.92 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2782,16 +2782,6 @@
 			(type default)
 		)
 		(uuid "635e0fda-a3ad-4fc7-bced-c758750d0240")
-	)
-	(wire
-		(pts
-			(xy 82.55 91.44) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6373030a-e229-43d2-9c44-55644b6f2c88")
 	)
 	(wire
 		(pts
@@ -3303,6 +3293,16 @@
 		)
 		(uuid "e052abb6-7f0e-40f3-8245-b2fab34311a0")
 	)
+	(wire
+		(pts
+			(xy 78.74 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fa9808-93c4-47ec-aabb-2988ae50a3e5")
+	)
 	(bus
 		(pts
 			(xy 26.67 55.88) (xy 26.67 54.61)
@@ -3454,12 +3454,12 @@
 		(uuid "10d5ada6-9b94-443c-b613-479e9e00596a")
 	)
 	(label "VBUS"
-		(at 82.55 91.44 0)
+		(at 88.9 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "16c2d6db-24ad-4a90-a5d8-efaf1d280a48")
 	)
@@ -3514,12 +3514,12 @@
 		(uuid "751365ae-18c3-475f-a202-725c415d6b01")
 	)
 	(label "VBUS"
-		(at 119.38 43.18 0)
+		(at 121.92 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7fefb8e9-5ea3-4a1c-980b-440cc87cee68")
 	)
@@ -3734,7 +3734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00486f52-eaee-48ff-a0ba-44b27ba1572d")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 62.865 103.505 0)
 			(effects
 				(font
@@ -3957,7 +3957,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3973,7 +3973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1017cb4b-d227-47d3-a13b-70eb28132672")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 171.45 60.96 90)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4068,7 +4068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10fd53cf-7565-4ddb-80dc-4855d432092e")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 110.49 26.6699 0)
 			(effects
 				(font
@@ -4149,7 +4149,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4165,7 +4165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a07bad-a21c-47a5-84b5-1838363872e9")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 95.25 97.7899 90)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f28e6c-ef3d-415b-be17-90c9c0f710dc")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 171.45 30.48 90)
 			(effects
 				(font
@@ -4332,7 +4332,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4348,7 +4348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285a2908-40c8-4f21-95fb-32d0195ab81a")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 171.45 71.12 90)
 			(effects
 				(font
@@ -4427,7 +4427,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4443,7 +4443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29c6537b-b544-4e56-9ffa-c83c5678eb93")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 116.84 49.8475 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4526,7 +4526,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fc61afa-bbfc-4885-a858-7f3acfebf32d")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 171.45 40.64 90)
 			(effects
 				(font
@@ -4621,7 +4621,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4637,7 +4637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "339bdf88-861b-4a7b-8fe0-993173e6b6cc")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 171.45 50.8 90)
 			(effects
 				(font
@@ -4716,7 +4716,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4732,7 +4732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41670ab3-6baf-4d8b-94a6-8cb92e4f871f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR010"
 			(at 107.95 45.72 0)
 			(effects
 				(font
@@ -4783,7 +4783,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "#PWR019")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4799,7 +4799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48ef911f-8264-4d67-9ba7-97af45d0e7a2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 58.42 118.11 0)
 			(effects
 				(font
@@ -4850,7 +4850,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4865,7 +4865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac6c93c-3c24-494a-8e7e-ccd4aeb069f0")
-		(property "Reference" "R19"
+		(property "Reference" "R8"
 			(at 84.074 75.184 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4948,7 +4948,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "R19")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4964,7 +4964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "660a9cc3-359c-46e6-b949-6a5bdefb7586")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 97.79 69.85 0)
 			(effects
 				(font
@@ -5015,7 +5015,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5031,7 +5031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67fafe51-a554-4018-a41c-9a7b4f2d86bc")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 116.84 65.0875 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5114,7 +5114,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5130,7 +5130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96494332-f572-4d38-be86-fa486a4667a6")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 60.96 19.05 0)
 			(effects
 				(font
@@ -5181,7 +5181,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5197,7 +5197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "965021ac-3594-4c1a-a9ba-2c1ca4e9835f")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -5248,7 +5248,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5264,7 +5264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3afe330-991d-441a-b99c-8b23e14f6f56")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d921396a-09c0-4fa9-b13a-b580d0fc1778")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 171.45 81.28 90)
 			(effects
 				(font
@@ -5410,7 +5410,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc1afb5-bc5a-433f-a7ee-d30ba3e1ca7a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 161.29 97.79 0)
 			(effects
 				(font
@@ -5477,7 +5477,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5594,7 +5594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0fcc295-090c-4605-af44-9ea093595588")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 95.25 80.3275 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5677,7 +5677,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/b916d44a-03d1-4a04-a023-19b38caca2ea"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)

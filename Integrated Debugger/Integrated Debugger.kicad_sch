@@ -10,113 +10,6 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Small"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Small_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Picoballoon ICs:USBULC6-2M6"
 			(pin_names
 				(hide yes)
@@ -2472,395 +2365,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Picoballoon Passives:Resistor array 8"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Resistor array 8"
-				(at 9.144 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "8 resistor network, parallel topology, split"
-				(at 7.62 -5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor array 8_0_1"
-				(rectangle
-					(start -0.9652 1.6129)
-					(end 0.9398 -1.5621)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor array 8_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Resistor array 8_2_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Resistor array 8_3_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Resistor array 8_4_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Resistor array 8_5_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R5.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R5.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Resistor array 8_6_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R6.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R6.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Resistor array 8_7_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R7.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R7.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Resistor array 8_8_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.2225)
-					(name "R8.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.2225)
-					(name "R8.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Picoballoon Power Symbols:+3.3V"
 			(power)
 			(pin_names
@@ -3411,26 +2915,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 72.39) (xy 194.31 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01818e9e-2fd7-4dde-a7ea-2b6839d72453")
-	)
-	(wire
-		(pts
-			(xy 201.93 67.31) (xy 238.76 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ad653c-55a3-40d6-89fc-f8ef3ba2dc88")
-	)
-	(wire
-		(pts
 			(xy 144.78 45.72) (xy 144.78 58.42)
 		)
 		(stroke
@@ -3508,16 +2992,6 @@
 			(type default)
 		)
 		(uuid "19251514-f332-4ae3-a9d6-2321af1002ec")
-	)
-	(wire
-		(pts
-			(xy 201.93 62.23) (xy 231.14 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1943d49d-8a10-4a33-ad70-58a7ab286245")
 	)
 	(wire
 		(pts
@@ -3611,26 +3085,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 59.69) (xy 231.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375f8f28-63a3-4ae7-a9fc-86625de953fb")
-	)
-	(wire
-		(pts
-			(xy 201.93 64.77) (xy 231.14 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "389a4075-7a2b-4106-9046-8a214e75e3ba")
-	)
-	(wire
-		(pts
 			(xy 201.93 132.08) (xy 222.25 132.08)
 		)
 		(stroke
@@ -3688,16 +3142,6 @@
 			(type default)
 		)
 		(uuid "48a94d6f-f9b6-4674-a7a7-cd39cd16de6e")
-	)
-	(wire
-		(pts
-			(xy 179.07 69.85) (xy 194.31 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e24c4d6-4b2e-4044-8d40-ed9e9ef3400c")
 	)
 	(bus
 		(pts
@@ -3791,16 +3235,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 194.31 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75d257a2-5121-4a37-bb47-45d12bbd9a96")
-	)
-	(wire
-		(pts
 			(xy 172.72 132.08) (xy 186.69 132.08)
 		)
 		(stroke
@@ -3808,16 +3242,6 @@
 			(type default)
 		)
 		(uuid "76def2b5-0a73-4fbb-9fbd-d61121ae486f")
-	)
-	(wire
-		(pts
-			(xy 179.07 59.69) (xy 194.31 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b778e91-789a-449d-a032-d73c9a831b96")
 	)
 	(wire
 		(pts
@@ -3888,16 +3312,6 @@
 			(type default)
 		)
 		(uuid "93407c3d-1a51-47f1-a41b-c63e200f550c")
-	)
-	(wire
-		(pts
-			(xy 201.93 69.85) (xy 231.14 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9430a5d9-1bd1-46e3-8608-b28f549ce3ea")
 	)
 	(wire
 		(pts
@@ -4021,16 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 62.23) (xy 194.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b448f25b-fe6f-45c0-a242-d7f18f5c30fc")
-	)
-	(wire
-		(pts
 			(xy 186.69 134.62) (xy 189.23 132.08)
 		)
 		(stroke
@@ -4131,16 +3535,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 74.93) (xy 194.31 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b47a82-d557-4874-812b-3e6cdb43cff5")
-	)
-	(wire
-		(pts
 			(xy 138.43 60.96) (xy 147.32 60.96)
 		)
 		(stroke
@@ -4148,16 +3542,6 @@
 			(type default)
 		)
 		(uuid "d6a2c71e-bf43-43ce-abc2-393b52ab0981")
-	)
-	(wire
-		(pts
-			(xy 179.07 67.31) (xy 194.31 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7154923-78ab-46e5-abb5-6c100a6285e1")
 	)
 	(wire
 		(pts
@@ -4188,16 +3572,6 @@
 			(type default)
 		)
 		(uuid "deb9c3e7-d644-4e58-abd9-b74a39d17db0")
-	)
-	(wire
-		(pts
-			(xy 201.93 74.93) (xy 231.14 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e242b348-8e6f-4fef-8f86-1816ba36712d")
 	)
 	(wire
 		(pts
@@ -4308,16 +3682,6 @@
 			(type default)
 		)
 		(uuid "fd185057-3665-4a2e-870e-23b4c48ad239")
-	)
-	(wire
-		(pts
-			(xy 201.93 72.39) (xy 231.14 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff00b504-bbfc-4b49-8eee-807ecdd15aae")
 	)
 	(label "SWD.IO"
 		(at 109.22 115.57 0)
@@ -4477,7 +3841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f1e025-9a8d-422f-b1d9-a05dd724df24")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR04"
 			(at 96.52 135.89 0)
 			(effects
 				(font
@@ -4528,144 +3892,8 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 198.12 72.39 90)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b70cb9f-6fba-4284-8e93-82f08dfe2881")
-		(property "Reference" "RN1"
-			(at 191.008 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 204.47 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 198.12 74.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 203.2 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C695200"
-			(at 198.12 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C695200"
-			(at 198.12 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "YC248-JR-07100RL"
-			(at 198.12 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "4418dc70-13d5-4af3-8d0f-947ddf418a67")
-		)
-		(pin "4"
-			(uuid "3a7b355c-4abb-4f8f-b8cb-d985fe60dd55")
-		)
-		(pin "15"
-			(uuid "f74243db-80db-492a-9ee7-1f1d467ea14d")
-		)
-		(pin "1"
-			(uuid "81ab2a87-cced-4b72-8630-5f5cb40b5606")
-		)
-		(pin "16"
-			(uuid "b07ce44d-d65f-4e47-9b62-7d702699df8c")
-		)
-		(pin "14"
-			(uuid "2929d410-6628-4e63-97e9-77c4ac9e56ba")
-		)
-		(pin "8"
-			(uuid "5100c68e-c263-42ee-869b-cb8448030878")
-		)
-		(pin "11"
-			(uuid "441d2caf-e793-4138-a39f-69898fe7c6d2")
-		)
-		(pin "3"
-			(uuid "758da011-b50a-4645-a372-6b0618399d44")
-		)
-		(pin "10"
-			(uuid "5db86b4f-d3bd-402b-90e8-097e3c887799")
-		)
-		(pin "13"
-			(uuid "762560c4-7491-426b-9dd1-80325bedc015")
-		)
-		(pin "12"
-			(uuid "f90c97e2-5f41-4c3e-8b26-1686e741c6f9")
-		)
-		(pin "2"
-			(uuid "d25e23e5-0b11-428c-9e5d-727c644475bd")
-		)
-		(pin "5"
-			(uuid "cce2c6f5-dc61-4a63-b01b-0286d6113e27")
-		)
-		(pin "9"
-			(uuid "dcbe962c-34fe-41c4-9d7c-89bc85b6393a")
-		)
-		(pin "7"
-			(uuid "7ac41509-4b4a-49fd-8312-e494bfa4b0e0")
-		)
-		(instances
-			(project ""
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "RN1")
-					(unit 5)
 				)
 			)
 		)
@@ -4679,7 +3907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fb0220c-83c2-4ed1-9dac-75b780b3d4a6")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 72.39 83.82 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4769,7 +3997,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cd47bc2-276e-42df-ab8a-c6247153f6c2")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 66.04 38.1 0)
 			(effects
 				(font
@@ -4874,7 +4102,7 @@
 		(instances
 			(project ""
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4890,7 +4118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40ae3dcf-c936-4190-8247-999e6a74bea3")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 213.36 140.0175 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4973,7 +4201,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4989,7 +4217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "476a14eb-aa53-4feb-bfa4-e4ffd123c592")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 194.31 168.91 0)
 			(effects
 				(font
@@ -5040,144 +4268,8 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 198.12 74.93 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e527b1e-eb92-4f0e-8b99-307fe2c07da6")
-		(property "Reference" "RN1"
-			(at 191.008 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 204.47 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 198.12 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 203.2 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C695200"
-			(at 198.12 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C695200"
-			(at 198.12 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "YC248-JR-07100RL"
-			(at 198.12 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "4418dc70-13d5-4af3-8d0f-947ddf418a69")
-		)
-		(pin "4"
-			(uuid "3a7b355c-4abb-4f8f-b8cb-d985fe60dd57")
-		)
-		(pin "15"
-			(uuid "f74243db-80db-492a-9ee7-1f1d467ea14f")
-		)
-		(pin "1"
-			(uuid "81ab2a87-cced-4b72-8630-5f5cb40b5608")
-		)
-		(pin "16"
-			(uuid "b07ce44d-d65f-4e47-9b62-7d702699df8e")
-		)
-		(pin "14"
-			(uuid "2929d410-6628-4e63-97e9-77c4ac9e56bc")
-		)
-		(pin "8"
-			(uuid "5100c68e-c263-42ee-869b-cb844803087a")
-		)
-		(pin "11"
-			(uuid "441d2caf-e793-4138-a39f-69898fe7c6d4")
-		)
-		(pin "3"
-			(uuid "758da011-b50a-4645-a372-6b0618399d46")
-		)
-		(pin "10"
-			(uuid "5db86b4f-d3bd-402b-90e8-097e3c88779b")
-		)
-		(pin "13"
-			(uuid "762560c4-7491-426b-9dd1-80325bedc017")
-		)
-		(pin "12"
-			(uuid "f90c97e2-5f41-4c3e-8b26-1686e741c6fb")
-		)
-		(pin "2"
-			(uuid "d25e23e5-0b11-428c-9e5d-727c644475bf")
-		)
-		(pin "5"
-			(uuid "cce2c6f5-dc61-4a63-b01b-0286d6113e29")
-		)
-		(pin "9"
-			(uuid "dcbe962c-34fe-41c4-9d7c-89bc85b6393c")
-		)
-		(pin "7"
-			(uuid "7ac41509-4b4a-49fd-8312-e494bfa4b0e2")
-		)
-		(instances
-			(project ""
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "RN1")
-					(unit 4)
 				)
 			)
 		)
@@ -5191,7 +4283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "524344bf-5c9a-4467-99ef-c4fcb82042de")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 83.693 61.595 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5272,7 +4364,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5288,7 +4380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52c4f761-3c5a-4eee-8e01-1040406dcbe7")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 168.91 136.906 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5369,7 +4461,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5385,7 +4477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5724a5d9-647e-4dfb-94e3-18d13fc840bc")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR03"
 			(at 72.39 118.11 0)
 			(effects
 				(font
@@ -5436,144 +4528,8 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "#PWR021")
+					(reference "#PWR03")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 198.12 64.77 90)
-		(unit 8)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a6cef62-d3c2-4fa2-b87d-385b9085248c")
-		(property "Reference" "RN1"
-			(at 191.008 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 204.47 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 198.12 66.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 203.2 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C695200"
-			(at 198.12 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C695200"
-			(at 198.12 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "YC248-JR-07100RL"
-			(at 198.12 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "4418dc70-13d5-4af3-8d0f-947ddf418a68")
-		)
-		(pin "4"
-			(uuid "3a7b355c-4abb-4f8f-b8cb-d985fe60dd56")
-		)
-		(pin "15"
-			(uuid "f74243db-80db-492a-9ee7-1f1d467ea14e")
-		)
-		(pin "1"
-			(uuid "81ab2a87-cced-4b72-8630-5f5cb40b5607")
-		)
-		(pin "16"
-			(uuid "b07ce44d-d65f-4e47-9b62-7d702699df8d")
-		)
-		(pin "14"
-			(uuid "2929d410-6628-4e63-97e9-77c4ac9e56bb")
-		)
-		(pin "8"
-			(uuid "1b2ec43d-2d39-4ac2-ae82-f6867068a5f6")
-		)
-		(pin "11"
-			(uuid "441d2caf-e793-4138-a39f-69898fe7c6d3")
-		)
-		(pin "3"
-			(uuid "758da011-b50a-4645-a372-6b0618399d45")
-		)
-		(pin "10"
-			(uuid "5db86b4f-d3bd-402b-90e8-097e3c88779a")
-		)
-		(pin "13"
-			(uuid "762560c4-7491-426b-9dd1-80325bedc016")
-		)
-		(pin "12"
-			(uuid "f90c97e2-5f41-4c3e-8b26-1686e741c6fa")
-		)
-		(pin "2"
-			(uuid "d25e23e5-0b11-428c-9e5d-727c644475be")
-		)
-		(pin "5"
-			(uuid "cce2c6f5-dc61-4a63-b01b-0286d6113e28")
-		)
-		(pin "9"
-			(uuid "03dba821-0f6f-4123-814b-87967194beeb")
-		)
-		(pin "7"
-			(uuid "7ac41509-4b4a-49fd-8312-e494bfa4b0e1")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "RN1")
-					(unit 8)
 				)
 			)
 		)
@@ -5587,7 +4543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d775560-5698-4713-9137-a848d415f47c")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 192.532 124.206 0)
 			(effects
 				(font
@@ -5683,7 +4639,7 @@
 		(instances
 			(project ""
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5698,7 +4654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f91e7d3-108f-46f0-9296-6435fded4350")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 168.91 128.016 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5779,7 +4735,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5928,142 +4884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 198.12 69.85 90)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "641bc860-9003-4264-9c2a-03bbdbe5a585")
-		(property "Reference" "RN1"
-			(at 191.008 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 204.47 68.834 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 198.12 71.882 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 203.2 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C695200"
-			(at 198.12 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C695200"
-			(at 198.12 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "YC248-JR-07100RL"
-			(at 198.12 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "4418dc70-13d5-4af3-8d0f-947ddf418a6a")
-		)
-		(pin "4"
-			(uuid "3a7b355c-4abb-4f8f-b8cb-d985fe60dd58")
-		)
-		(pin "15"
-			(uuid "f74243db-80db-492a-9ee7-1f1d467ea150")
-		)
-		(pin "1"
-			(uuid "81ab2a87-cced-4b72-8630-5f5cb40b5609")
-		)
-		(pin "16"
-			(uuid "b07ce44d-d65f-4e47-9b62-7d702699df8f")
-		)
-		(pin "14"
-			(uuid "2929d410-6628-4e63-97e9-77c4ac9e56bd")
-		)
-		(pin "8"
-			(uuid "5100c68e-c263-42ee-869b-cb844803087b")
-		)
-		(pin "11"
-			(uuid "441d2caf-e793-4138-a39f-69898fe7c6d5")
-		)
-		(pin "3"
-			(uuid "758da011-b50a-4645-a372-6b0618399d47")
-		)
-		(pin "10"
-			(uuid "5db86b4f-d3bd-402b-90e8-097e3c88779c")
-		)
-		(pin "13"
-			(uuid "762560c4-7491-426b-9dd1-80325bedc018")
-		)
-		(pin "12"
-			(uuid "f90c97e2-5f41-4c3e-8b26-1686e741c6fc")
-		)
-		(pin "2"
-			(uuid "d25e23e5-0b11-428c-9e5d-727c644475c0")
-		)
-		(pin "5"
-			(uuid "cce2c6f5-dc61-4a63-b01b-0286d6113e2a")
-		)
-		(pin "9"
-			(uuid "dcbe962c-34fe-41c4-9d7c-89bc85b6393d")
-		)
-		(pin "7"
-			(uuid "7ac41509-4b4a-49fd-8312-e494bfa4b0e3")
-		)
-		(instances
-			(project ""
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "RN1")
-					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Picoballoon Passives:Resistor")
 		(at 218.44 140.97 0)
 		(unit 1)
@@ -6073,7 +4893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b70c723-e40c-426c-93e6-8f4d8b968856")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 219.71 140.0175 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6156,7 +4976,7 @@
 		(instances
 			(project ""
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R12")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6171,7 +4991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fbc9f0f-9b58-4a2a-ad76-e55770c9804e")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 72.39 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6261,7 +5081,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6276,7 +5096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75aee69f-edb4-4064-bb58-5e742675cd59")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 83.693 76.835 90)
 			(do_not_autoplace yes)
 			(effects
@@ -6357,7 +5177,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6372,7 +5192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "833fb77f-11fb-481f-a991-84e4941f965a")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 83.82 69.215 90)
 			(do_not_autoplace yes)
 			(effects
@@ -6453,7 +5273,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6600,7 +5420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88a1447c-4e30-4eca-b7fc-de1ab9b219a2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 64.77 91.44 0)
 			(effects
 				(font
@@ -6651,144 +5471,8 @@
 		(instances
 			(project ""
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 198.12 67.31 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93ce6071-ba26-4786-8902-577ee567199c")
-		(property "Reference" "RN1"
-			(at 191.008 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 204.47 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 198.12 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 203.2 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C695200"
-			(at 198.12 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C695200"
-			(at 198.12 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "YC248-JR-07100RL"
-			(at 198.12 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "4418dc70-13d5-4af3-8d0f-947ddf418a6b")
-		)
-		(pin "4"
-			(uuid "3a7b355c-4abb-4f8f-b8cb-d985fe60dd59")
-		)
-		(pin "15"
-			(uuid "4270e5b8-97d0-4e03-96c2-93aee5b1d5f2")
-		)
-		(pin "1"
-			(uuid "81ab2a87-cced-4b72-8630-5f5cb40b560a")
-		)
-		(pin "16"
-			(uuid "b07ce44d-d65f-4e47-9b62-7d702699df90")
-		)
-		(pin "14"
-			(uuid "2929d410-6628-4e63-97e9-77c4ac9e56be")
-		)
-		(pin "8"
-			(uuid "5100c68e-c263-42ee-869b-cb8448030879")
-		)
-		(pin "11"
-			(uuid "441d2caf-e793-4138-a39f-69898fe7c6d6")
-		)
-		(pin "3"
-			(uuid "758da011-b50a-4645-a372-6b0618399d48")
-		)
-		(pin "10"
-			(uuid "5db86b4f-d3bd-402b-90e8-097e3c88779d")
-		)
-		(pin "13"
-			(uuid "762560c4-7491-426b-9dd1-80325bedc019")
-		)
-		(pin "12"
-			(uuid "f90c97e2-5f41-4c3e-8b26-1686e741c6fd")
-		)
-		(pin "2"
-			(uuid "4c8c25ea-d1c4-44ac-b8ff-7354fe6de150")
-		)
-		(pin "5"
-			(uuid "cce2c6f5-dc61-4a63-b01b-0286d6113e2b")
-		)
-		(pin "9"
-			(uuid "dcbe962c-34fe-41c4-9d7c-89bc85b6393b")
-		)
-		(pin "7"
-			(uuid "7ac41509-4b4a-49fd-8312-e494bfa4b0e4")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "RN1")
-					(unit 2)
 				)
 			)
 		)
@@ -6802,7 +5486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f210b9d-8375-4445-9a60-3963fdd78d3d")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 72.39 76.2 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6892,7 +5576,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6908,7 +5592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a806791e-9942-4e30-be5c-d0594da81919")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 194.31 116.84 0)
 			(effects
 				(font
@@ -6958,346 +5642,7 @@
 		(instances
 			(project ""
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 238.76 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "afaeeabf-ec58-4b80-850c-a2122cd8f825")
-		(property "Reference" "TP1"
-			(at 240.03 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "tTDI"
-			(at 240.03 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Picoballoon Mechanical & Misc:TestPoint"
-			(at 243.84 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 238.76 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a717aa9-1790-4fe0-91f5-968fe8720627")
-		)
-		(instances
-			(project "Programmer"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 198.12 62.23 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4c53476-3333-4012-8396-0f8882b63de3")
-		(property "Reference" "RN1"
-			(at 191.008 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 204.47 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 198.12 64.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 203.2 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C695200"
-			(at 198.12 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C695200"
-			(at 198.12 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "YC248-JR-07100RL"
-			(at 198.12 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "4418dc70-13d5-4af3-8d0f-947ddf418a6c")
-		)
-		(pin "4"
-			(uuid "3a7b355c-4abb-4f8f-b8cb-d985fe60dd5a")
-		)
-		(pin "15"
-			(uuid "f74243db-80db-492a-9ee7-1f1d467ea152")
-		)
-		(pin "1"
-			(uuid "81ab2a87-cced-4b72-8630-5f5cb40b560b")
-		)
-		(pin "16"
-			(uuid "b07ce44d-d65f-4e47-9b62-7d702699df91")
-		)
-		(pin "14"
-			(uuid "2929d410-6628-4e63-97e9-77c4ac9e56bf")
-		)
-		(pin "8"
-			(uuid "5100c68e-c263-42ee-869b-cb844803087d")
-		)
-		(pin "11"
-			(uuid "441d2caf-e793-4138-a39f-69898fe7c6d7")
-		)
-		(pin "3"
-			(uuid "758da011-b50a-4645-a372-6b0618399d49")
-		)
-		(pin "10"
-			(uuid "5db86b4f-d3bd-402b-90e8-097e3c88779e")
-		)
-		(pin "13"
-			(uuid "762560c4-7491-426b-9dd1-80325bedc01a")
-		)
-		(pin "12"
-			(uuid "f90c97e2-5f41-4c3e-8b26-1686e741c6fe")
-		)
-		(pin "2"
-			(uuid "d25e23e5-0b11-428c-9e5d-727c644475c2")
-		)
-		(pin "5"
-			(uuid "cce2c6f5-dc61-4a63-b01b-0286d6113e2c")
-		)
-		(pin "9"
-			(uuid "dcbe962c-34fe-41c4-9d7c-89bc85b6393f")
-		)
-		(pin "7"
-			(uuid "7ac41509-4b4a-49fd-8312-e494bfa4b0e5")
-		)
-		(instances
-			(project ""
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "RN1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Passives:Resistor array 8")
-		(at 198.12 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc581c20-f5a3-425b-9df8-51000740d2d8")
-		(property "Reference" "RN1"
-			(at 191.008 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 204.47 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
-			(at 198.12 61.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 203.2 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C695200"
-			(at 198.12 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C695200"
-			(at 198.12 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "YC248-JR-07100RL"
-			(at 198.12 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "4418dc70-13d5-4af3-8d0f-947ddf418a6d")
-		)
-		(pin "4"
-			(uuid "3a7b355c-4abb-4f8f-b8cb-d985fe60dd5b")
-		)
-		(pin "15"
-			(uuid "f74243db-80db-492a-9ee7-1f1d467ea153")
-		)
-		(pin "1"
-			(uuid "81ab2a87-cced-4b72-8630-5f5cb40b560c")
-		)
-		(pin "16"
-			(uuid "b07ce44d-d65f-4e47-9b62-7d702699df92")
-		)
-		(pin "14"
-			(uuid "2929d410-6628-4e63-97e9-77c4ac9e56c0")
-		)
-		(pin "8"
-			(uuid "5100c68e-c263-42ee-869b-cb844803087e")
-		)
-		(pin "11"
-			(uuid "441d2caf-e793-4138-a39f-69898fe7c6d8")
-		)
-		(pin "3"
-			(uuid "758da011-b50a-4645-a372-6b0618399d4a")
-		)
-		(pin "10"
-			(uuid "5db86b4f-d3bd-402b-90e8-097e3c88779f")
-		)
-		(pin "13"
-			(uuid "762560c4-7491-426b-9dd1-80325bedc01b")
-		)
-		(pin "12"
-			(uuid "f90c97e2-5f41-4c3e-8b26-1686e741c6ff")
-		)
-		(pin "2"
-			(uuid "d25e23e5-0b11-428c-9e5d-727c644475c3")
-		)
-		(pin "5"
-			(uuid "cce2c6f5-dc61-4a63-b01b-0286d6113e2d")
-		)
-		(pin "9"
-			(uuid "dcbe962c-34fe-41c4-9d7c-89bc85b63940")
-		)
-		(pin "7"
-			(uuid "7ac41509-4b4a-49fd-8312-e494bfa4b0e6")
-		)
-		(instances
-			(project ""
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "RN1")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7518,109 +5863,6 @@
 		)
 	)
 	(sheet
-		(at 231.14 57.15)
-		(size 19.05 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 0 0 132 1)
-		)
-		(fill
-			(color 0 255 0 1.0000)
-		)
-		(uuid "c1854176-18bb-4619-bb41-9308dd6d7253")
-		(property "Sheetname" "Target"
-			(at 231.14 56.4384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Target.kicad_sch"
-			(at 231.14 78.0546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "tTCK" input
-			(at 231.14 74.93 180)
-			(uuid "9b8f166c-0a37-479e-8d80-3a9cdeaaba61")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tRXD" output
-			(at 231.14 64.77 180)
-			(uuid "cf55d3c6-822c-4ac2-8e04-abc2306e57c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tTDO" output
-			(at 231.14 72.39 180)
-			(uuid "b7df735a-d00f-4f55-a24c-8280743cb455")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tTMS" bidirectional
-			(at 231.14 62.23 180)
-			(uuid "0d7ab7e6-12f3-4fe3-a51a-9d8d8b98a7d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tRST" input
-			(at 231.14 59.69 180)
-			(uuid "63b8d76c-4815-434f-985f-90fc8873f5d1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "tTXD" input
-			(at 231.14 69.85 180)
-			(uuid "e9b032a6-f1a3-4e4e-a440-36389e38f431")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 152.4 54.61)
 		(size 26.67 31.75)
 		(exclude_from_sim no)
@@ -7637,7 +5879,7 @@
 			(color 0 255 0 1.0000)
 		)
 		(uuid "d9cee7b3-2b2b-4107-bac3-796b154ca54d")
-		(property "Sheetname" "Target Frontend"
+		(property "Sheetname" "Target"
 			(at 152.4 53.8984 0)
 			(effects
 				(font
@@ -7646,7 +5888,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Frontend.kicad_sch"
+		(property "Sheetfile" "Target.kicad_sch"
 			(at 152.4 86.9446 0)
 			(effects
 				(font
@@ -7663,76 +5905,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "xRST" output
-			(at 179.07 59.69 0)
-			(uuid "00b59bb1-4b4e-4dd0-bdbd-a03b6e2c98ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "xTMS" bidirectional
-			(at 179.07 62.23 0)
-			(uuid "897ef707-ff56-428e-a6df-b05b9cb81be1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "xRXD" input
-			(at 179.07 64.77 0)
-			(uuid "55c8fa8a-aae7-4993-a439-0a6b7d8f3e63")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "xTDI" output
-			(at 179.07 67.31 0)
-			(uuid "f2ba3019-76a4-4d2f-bd4c-21751b639c21")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "xTXD" output
-			(at 179.07 69.85 0)
-			(uuid "bf9aa83c-c758-4d47-831a-82a437678f86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "xTDO" input
-			(at 179.07 72.39 0)
-			(uuid "927f9e13-0ee2-4b33-aeb3-2abb32412a7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "xTCK" output
-			(at 179.07 74.93 0)
-			(uuid "5cdbff64-db51-4168-acf5-bf8cee48a18c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
