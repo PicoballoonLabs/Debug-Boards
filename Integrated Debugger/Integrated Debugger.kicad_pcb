@@ -20933,7 +20933,7 @@
 		)
 	)
 	(gr_text "SN_NUMBER"
-		(at 166.7 92.2 0)
+		(at 170.7 92.2 0)
 		(layer "B.Fab")
 		(uuid "eae74329-2d9e-4282-ae04-9fc6b23ec766")
 		(effects
