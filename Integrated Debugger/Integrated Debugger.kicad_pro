@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|163437500|89362500|47f76d6a-327f-4bb2-b695-f7a40b3ae690|15b848fe-a0f8-401d-8ac8-9b1615a1e45b",
+          ""
+        ],
+        [
+          "clearance|163937500|89362500|d855bd98-36a0-4934-8f23-65bb01603506|15b848fe-a0f8-401d-8ac8-9b1615a1e45b",
+          ""
+        ],
+        [
+          "clearance|171225000|86675000|0e364693-9bfa-4ec7-903b-5a9d3f6485fe|11324701-f5b0-4fe1-a566-33007d887192",
+          ""
+        ],
+        [
+          "clearance|172706005|86300407|195129bd-b36a-4f62-904d-ea32fdb6090c|eef8032e-64d3-42c2-aa76-eee45ce91c1f",
+          ""
+        ],
+        [
+          "clearance|172709955|86121511|195129bd-b36a-4f62-904d-ea32fdb6090c|d5eec167-5488-4837-a879-0639a2272c52",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -488,7 +509,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1554,
         "name": "Coplanar Diff Pair",
@@ -536,7 +557,7 @@
       },
       {
         "netclass": "Coplanar Diff Pair",
-        "pattern": "/*USB*"
+        "pattern": "/*USB.D*"
       },
       {
         "netclass": "Coplanar Diff Pair",
@@ -549,6 +570,10 @@
       {
         "netclass": "Power",
         "pattern": "*xTPWR"
+      },
+      {
+        "netclass": "Coplanar Diff Pair",
+        "pattern": "/*USBX.D*"
       }
     ]
   },

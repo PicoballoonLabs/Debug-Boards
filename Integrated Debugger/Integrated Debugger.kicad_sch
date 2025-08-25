@@ -2798,6 +2798,12 @@
 		(uuid "666a9727-091e-4d18-8ea6-877a610a7d22")
 	)
 	(junction
+		(at 176.53 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d9201d3-bffc-4043-8c80-7c41f4e9a926")
+	)
+	(junction
 		(at 222.25 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2975,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 134.62) (xy 186.69 134.62)
+			(xy 172.72 134.62) (xy 176.53 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3175,6 +3181,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 140.97) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545bc409-cfdf-431b-a5d6-01abdf54935f")
+	)
+	(wire
+		(pts
 			(xy 248.92 154.94) (xy 248.92 158.75)
 		)
 		(stroke
@@ -3192,6 +3208,26 @@
 			(type default)
 		)
 		(uuid "57f27757-b16a-4c67-8dd7-4b4e760e7b09")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.62) (xy 138.43 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4fb2f1-3aaf-4d55-ba56-97196e11bc88")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6378e394-3c7a-4348-8276-137060769f65")
 	)
 	(wire
 		(pts
@@ -3342,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "993e490c-6e72-4c2d-ac1a-fe792e1043ff")
+	)
+	(wire
+		(pts
+			(xy 176.53 134.62) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bda8ccb-4d34-45aa-993c-b0959a879092")
 	)
 	(wire
 		(pts
@@ -3513,6 +3559,16 @@
 		)
 		(uuid "cccce21c-00b5-4f01-adaf-1674984dd3f7")
 	)
+	(wire
+		(pts
+			(xy 138.43 140.97) (xy 158.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4bc6ff-ca3f-4d68-b938-c7f577afeefe")
+	)
 	(bus
 		(pts
 			(xy 120.65 113.03) (xy 120.65 115.57)
@@ -3532,6 +3588,16 @@
 			(type default)
 		)
 		(uuid "d1cf37a2-d73c-4794-af3f-99f4c8271a87")
+	)
+	(wire
+		(pts
+			(xy 176.53 134.62) (xy 186.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2911351-077e-49c5-86f5-f98b713218be")
 	)
 	(wire
 		(pts
@@ -5359,9 +5425,6 @@
 		(pin "P2_2"
 			(uuid "08640764-8e62-49ee-9014-4afbfc1e5475")
 		)
-		(pin "S3"
-			(uuid "a9ee32e5-6300-4a74-8d06-4785f691c6f9")
-		)
 		(pin "3"
 			(uuid "1081e3bf-30ed-4bec-adae-eff4ccee2f8e")
 		)
@@ -5377,12 +5440,6 @@
 		(pin "1"
 			(uuid "ec0c5374-7f82-49a3-8d99-ea3e91091955")
 		)
-		(pin "S4"
-			(uuid "a5f79aa7-9915-407d-beab-cb024423fa99")
-		)
-		(pin "S2"
-			(uuid "7abe2e4f-49cd-4cf6-8b4b-2099164a6cef")
-		)
 		(pin "8"
 			(uuid "d286bbe1-c473-4ecb-9bfb-b7d8f2642c6b")
 		)
@@ -5392,14 +5449,23 @@
 		(pin "P1_2"
 			(uuid "49653080-8521-4269-ac20-3fca6f5b6236")
 		)
-		(pin "S1"
-			(uuid "db1accdd-6d18-41bb-89b5-f9ccccf198f0")
-		)
 		(pin "4"
 			(uuid "cc4a4968-bed0-48d5-8603-ffc903883c27")
 		)
 		(pin "2"
 			(uuid "7d5b7681-7ead-42a8-91d8-f97ff1389d2e")
+		)
+		(pin "S4"
+			(uuid "a9a36799-d709-4f3e-88e4-3d13899b0adf")
+		)
+		(pin "S3"
+			(uuid "253d2b32-12df-47fb-a119-e0bd7456404c")
+		)
+		(pin "S1"
+			(uuid "d91dd97c-1785-4c53-aec6-3cd55d21d862")
+		)
+		(pin "S2"
+			(uuid "a1ea410d-4372-4f04-9766-89c5d27a59cb")
 		)
 		(instances
 			(project ""
@@ -5648,6 +5714,102 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Picoballoon Passives:Resistor")
+		(at 162.56 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0eab194-40e1-4f11-b688-c1e6984948cf")
+		(property "Reference" "R19"
+			(at 162.433 136.525 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5kΩ"
+			(at 162.56 138.43 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Picoballoon Passives:Resistor 0201"
+			(at 162.56 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic Resistor"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-071K5L"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C155737"
+			(at 162.56 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C155737"
+			(at 162.56 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1324d0c6-4f50-40b7-ac14-82094b0d8b26")
+		)
+		(pin "1"
+			(uuid "e4008989-9a1b-451b-8230-958c26f9e970")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 110.49 22.86)
 		(size 55.88 22.86)
@@ -5852,6 +6014,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB.PD" passive
+			(at 132.08 86.36 270)
+			(uuid "70878c5b-27d7-4ed6-8f26-7f7aa9939de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

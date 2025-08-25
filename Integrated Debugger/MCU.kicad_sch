@@ -3493,16 +3493,6 @@
 		)
 		(uuid "5b2a54c6-642e-48a9-83bf-9a3ddc00d008")
 	)
-	(label "USB.PD"
-		(at 39.37 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65657a68-8cd8-4cab-aeb2-f274234117cf")
-	)
 	(label "i.TDI"
 		(at 39.37 38.1 180)
 		(effects
@@ -3701,6 +3691,17 @@
 			(justify left)
 		)
 		(uuid "cd60ea38-f0ec-4727-b52a-95097e4ec654")
+	)
+	(hierarchical_label "USB.PD"
+		(shape passive)
+		(at 39.37 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db0ef254-2e95-47e6-85bb-ce6bd959ccb9")
 	)
 	(hierarchical_label "LED1"
 		(shape output)
