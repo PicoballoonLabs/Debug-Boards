@@ -712,7 +712,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Picoballoon Mechanical & Misc:B2B GT-B0353FSV06-08B0201"
+		(symbol "Picoballoon Mechanical & Misc:B2B GT-B0353MSV04-08B0201"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -739,7 +739,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Picoballoon Mechanical & Misc:B2B GT-B0353FSV06-08B0201"
+			(property "Footprint" "Picoballoon Mechanical & Misc:B2B GT-B0353MSV04-08B0201"
 				(at 0 -35.56 0)
 				(effects
 					(font
@@ -748,7 +748,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411191029_G-Switch-GT-B0353FSV06-10B0201_C42385864.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42385857.pdf"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -766,7 +766,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GT-B0353FSV06-08B0201"
+			(property "MPN" "GT-B0353MSV04-08B0201"
 				(at 0 -33.02 0)
 				(effects
 					(font
@@ -775,7 +775,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "C42385863"
+			(property "LCSC Part #" "C42385857"
 				(at 0 -33.02 0)
 				(effects
 					(font
@@ -802,7 +802,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "B2B GT-B0353FSV06-08B0201_1_1"
+			(symbol "B2B GT-B0353MSV04-08B0201_1_1"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy -1.778 5.08)
@@ -1153,44 +1153,6 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -5.08 0)
-					(length 3.81)
-					(hide yes)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -5.08 0)
-					(length 3.81)
-					(hide yes)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 6.35 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
@@ -1292,44 +1254,6 @@
 						)
 					)
 					(number "P2_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -5.08 180)
-					(length 3.81)
-					(hide yes)
-					(name "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -5.08 180)
-					(length 3.81)
-					(hide yes)
-					(name "S4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4184,7 +4108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40ae3dcf-c936-4190-8247-999e6a74bea3")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 213.36 140.0175 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4267,7 +4191,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52c4f761-3c5a-4eee-8e01-1040406dcbe7")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 168.91 136.906 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4527,7 +4451,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4720,7 +4644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f91e7d3-108f-46f0-9296-6435fded4350")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 168.91 128.016 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4801,7 +4725,7 @@
 		(instances
 			(project "Programmer"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4959,7 +4883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b70c723-e40c-426c-93e6-8f4d8b968856")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 219.71 140.0175 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5042,7 +4966,7 @@
 		(instances
 			(project ""
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5346,7 +5270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Picoballoon Mechanical & Misc:B2B GT-B0353FSV06-08B0201")
+		(lib_id "Picoballoon Mechanical & Misc:B2B GT-B0353MSV04-08B0201")
 		(at 86.36 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5383,7 +5307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411191029_G-Switch-GT-B0353FSV06-10B0201_C42385864.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42385857.pdf"
 			(at 86.36 151.13 0)
 			(effects
 				(font
@@ -5401,7 +5325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GT-B0353FSV06-08B0201"
+		(property "MPN" "GT-B0353MSV04-08B0201"
 			(at 86.36 153.67 0)
 			(effects
 				(font
@@ -5410,7 +5334,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C42385863"
+		(property "LCSC Part #" "C42385857"
 			(at 86.36 153.67 0)
 			(effects
 				(font
@@ -5454,18 +5378,6 @@
 		)
 		(pin "2"
 			(uuid "7d5b7681-7ead-42a8-91d8-f97ff1389d2e")
-		)
-		(pin "S4"
-			(uuid "a9a36799-d709-4f3e-88e4-3d13899b0adf")
-		)
-		(pin "S3"
-			(uuid "253d2b32-12df-47fb-a119-e0bd7456404c")
-		)
-		(pin "S1"
-			(uuid "d91dd97c-1785-4c53-aec6-3cd55d21d862")
-		)
-		(pin "S2"
-			(uuid "a1ea410d-4372-4f04-9766-89c5d27a59cb")
 		)
 		(instances
 			(project ""
@@ -5723,7 +5635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0eab194-40e1-4f11-b688-c1e6984948cf")
-		(property "Reference" "R19"
+		(property "Reference" "R4"
 			(at 162.433 136.525 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5804,7 +5716,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "R19")
+					(reference "R4")
 					(unit 1)
 				)
 			)

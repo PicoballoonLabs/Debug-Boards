@@ -4326,7 +4326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bdeb171-618f-4582-96fa-e8ded7730b02")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 59.69 93.0275 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4409,7 +4409,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/d9cee7b3-2b2b-4107-bac3-796b154ca54d"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)

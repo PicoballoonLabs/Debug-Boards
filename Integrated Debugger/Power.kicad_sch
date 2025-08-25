@@ -3160,7 +3160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01be6ec4-c234-48f9-8ac7-a69f88069e20")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 38.1 113.3475 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3243,7 +3243,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3325,7 +3325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04e11f5f-6c1a-49dc-a826-df934de965cc")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 69.85 125.73 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f55b2fd-cdae-47de-8ab4-ef35b3bdaefe")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 72.39 82.55 0)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11813615-38b5-4a27-b19a-6d5c2aca717c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 69.85 105.41 0)
 			(effects
 				(font
@@ -3505,7 +3505,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3550,7 +3550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588954991717453824"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -3568,7 +3568,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R60J105MEA2D"
+		(property "MPN" "GRM033R61C105ME15D"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -3586,7 +3586,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76930"
+		(property "LCSC Part #" "C335102"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -3620,7 +3620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a47d7ce-e912-4b13-9671-c65e7d95878d")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 121.92 43.4975 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3703,7 +3703,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4219,7 +4219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a66871e-97d9-4b2d-a23a-8c585a023a26")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 161.29 43.4975 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4302,7 +4302,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903659258458112"
 			(at 67.31 25.4 0)
 			(effects
 				(font
@@ -4600,7 +4600,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R61A104KE15D"
+		(property "MPN" "GRM033R6YA104KE14D"
 			(at 67.31 25.4 0)
 			(effects
 				(font
@@ -4609,7 +4609,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76934"
+		(property "LCSC Part #" "C181043"
 			(at 67.31 25.4 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903659258458112"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -4725,7 +4725,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R61A104KE15D"
+		(property "MPN" "GRM033R6YA104KE14D"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -4770,7 +4770,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76934"
+		(property "LCSC Part #" "C181043"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG3005EL,315"
+		(property "Value" "CTS520,L3F(T"
 			(at 66.04 66.04 0)
 			(effects
 				(font
@@ -5167,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMEG3005EL,315 "
+		(property "MPN" "CTS520,L3F(T"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C282565"
+		(property "LCSC Part #" "C2847407"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -5219,7 +5219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76d376da-49e2-41bd-be4f-cda33b6de0e7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 22.86 125.73 0)
 			(effects
 				(font
@@ -5269,7 +5269,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5352,7 +5352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c95daa9-d878-4c18-869b-a6bbd1882c5c")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 161.29 23.1775 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5435,7 +5435,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5451,7 +5451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3d20d9a-73ff-40ea-971c-57b76bbfca50")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 38.1 70.1675 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5534,7 +5534,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5615,7 +5615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68c9611-00fc-4723-bc61-9a977309ff1a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 22.86 105.41 0)
 			(effects
 				(font
@@ -5666,7 +5666,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5682,7 +5682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9b3a7dd-8da8-436b-9e9f-8ced164d5e41")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 121.92 23.1775 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5765,7 +5765,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5781,7 +5781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae40edf6-7ed7-4cb9-ac08-d3b09f77f9d0")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 22.225 111.125 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5810,7 +5810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903659258458112"
 			(at 22.86 113.03 0)
 			(effects
 				(font
@@ -5828,7 +5828,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R61A104KE15D"
+		(property "MPN" "GRM033R6YA104KE14D"
 			(at 22.86 113.03 0)
 			(effects
 				(font
@@ -5873,7 +5873,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76934"
+		(property "LCSC Part #" "C181043"
 			(at 22.86 113.03 0)
 			(effects
 				(font
@@ -5891,7 +5891,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6075,7 +6075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcea11e2-250d-4323-8353-ac3aa738ddd9")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 70.485 111.125 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6104,7 +6104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903659258458112"
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -6122,7 +6122,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R61A104KE15D"
+		(property "MPN" "GRM033R6YA104KE14D"
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -6167,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76934"
+		(property "LCSC Part #" "C181043"
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -6185,7 +6185,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6295,7 +6295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588954991717453824"
 			(at 26.67 25.4 0)
 			(effects
 				(font
@@ -6313,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R60J105MEA2D"
+		(property "MPN" "GRM033R61C105ME15D"
 			(at 26.67 25.4 0)
 			(effects
 				(font
@@ -6331,7 +6331,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76930"
+		(property "LCSC Part #" "C335102"
 			(at 26.67 25.4 0)
 			(effects
 				(font
@@ -6365,7 +6365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c02e9853-52a9-4825-889d-1cc528398db8")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 23.495 67.945 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6394,7 +6394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903659258458112"
 			(at 24.13 69.85 0)
 			(effects
 				(font
@@ -6412,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R61A104KE15D"
+		(property "MPN" "GRM033R6YA104KE14D"
 			(at 24.13 69.85 0)
 			(effects
 				(font
@@ -6457,7 +6457,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76934"
+		(property "LCSC Part #" "C181043"
 			(at 24.13 69.85 0)
 			(effects
 				(font
@@ -6475,7 +6475,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6490,7 +6490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b05d4e-6535-4f30-9cc0-65143bf15c72")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 73.025 67.945 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6519,7 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588903659258458112"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R61A104KE15D"
+		(property "MPN" "GRM033R6YA104KE14D"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -6582,7 +6582,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76934"
+		(property "LCSC Part #" "C181043"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -6600,7 +6600,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6681,7 +6681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca7320f4-82aa-4709-b45c-cfedc481892f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 24.13 82.55 0)
 			(effects
 				(font
@@ -6731,7 +6731,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6746,7 +6746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc604120-d4d5-4e34-bc30-82a3a91728b1")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -6796,7 +6796,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef603ceb-f9ac-4e55-84be-4a4c85a80da0")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 24.13 62.23 0)
 			(effects
 				(font
@@ -7058,7 +7058,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7103,7 +7103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588954991717453824"
 			(at 142.24 93.98 0)
 			(effects
 				(font
@@ -7121,7 +7121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R60J105MEA2D"
+		(property "MPN" "GRM033R61C105ME15D"
 			(at 142.24 93.98 0)
 			(effects
 				(font
@@ -7139,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C76930"
+		(property "LCSC Part #" "C335102"
 			(at 142.24 93.98 0)
 			(effects
 				(font
