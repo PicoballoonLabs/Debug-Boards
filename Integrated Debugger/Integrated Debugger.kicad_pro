@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -65,10 +65,6 @@
         ],
         [
           "clearance|163937500|89362500|d855bd98-36a0-4934-8f23-65bb01603506|15b848fe-a0f8-401d-8ac8-9b1615a1e45b",
-          ""
-        ],
-        [
-          "clearance|171225000|86675000|0e364693-9bfa-4ec7-903b-5a9d3f6485fe|11324701-f5b0-4fe1-a566-33007d887192",
           ""
         ],
         [
@@ -209,7 +205,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.1,
+        0.35
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -771,7 +768,7 @@
     ]
   ],
   "text_variables": {
-    "CHK_APP_DATE": "",
+    "CHK_APP_DATE": "8/25/2025",
     "CHK_NAME": "Jakub Nagy",
     "DSN_APP_DATE": "8/24/2025",
     "DSN_NAME": "Adam Gramblicka",

@@ -4862,7 +4862,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C165948"
+		(property "JLCPCB Part #" "C3197885"
 			(at 241.3 132.08 0)
 			(effects
 				(font
@@ -4871,7 +4871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C165948"
+		(property "LCSC Part #" "C3197885"
 			(at 241.3 132.08 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TYPE-C-31-M-12"
+		(property "MPN" "DX07S016JA1R1500"
 			(at 241.3 132.08 0)
 			(effects
 				(font
