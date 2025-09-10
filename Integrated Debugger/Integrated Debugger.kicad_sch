@@ -4050,7 +4050,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C965555"
+		(property "LCSC Part #" "C5349957"
 			(at 64.77 46.99 0)
 			(effects
 				(font
@@ -4059,7 +4059,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WS2812B-2020"
+		(property "MPN" "XL-2121RGBC-WS2812B"
 			(at 64.77 46.99 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C965555"
+		(property "JLCPCB Part #" "C5349957"
 			(at 64.77 46.99 0)
 			(effects
 				(font
