@@ -5140,7 +5140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Diode SOD-882"
+		(property "Footprint" "Picoballoon Passives:Diode SOD-323F"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -5167,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CTS520,L3F(T"
+		(property "MPN" "PMEG2020EJ,115"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -5176,16 +5176,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C282565"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2847407"
+		(property "LCSC Part #" "C841776"
 			(at 66.04 63.5 0)
 			(effects
 				(font
