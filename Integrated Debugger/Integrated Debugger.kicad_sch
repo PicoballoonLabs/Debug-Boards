@@ -457,7 +457,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Picoballoon ICs:WS2812B-2020"
+		(symbol "Picoballoon ICs:WS2812B-2121"
 			(pin_names
 				(offset 0.254)
 			)
@@ -473,7 +473,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B-2020"
+			(property "Value" "WS2812B-2121"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -482,7 +482,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Picoballoon ICs:WS2812B-2020"
+			(property "Footprint" "Picoballoon ICs:WS2812B-2121"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -502,7 +502,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(property "Description" "RGB LED with integrated controller, 2.1 x 2.1 mm, 12 mA"
 				(at 30.48 -12.7 0)
 				(effects
 					(font
@@ -529,7 +529,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B-2020_0_0"
+			(symbol "WS2812B-2121_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -539,7 +539,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_0_1"
+			(symbol "WS2812B-2121_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -636,7 +636,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_1_1"
+			(symbol "WS2812B-2121_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -3994,7 +3994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Picoballoon ICs:WS2812B-2020")
+		(lib_id "Picoballoon ICs:WS2812B-2121")
 		(at 64.77 46.99 0)
 		(mirror y)
 		(unit 1)
@@ -4021,7 +4021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:WS2812B-2020"
+		(property "Footprint" "Picoballoon ICs:WS2812B-2121"
 			(at 63.5 54.61 0)
 			(effects
 				(font
@@ -4041,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller, 2.1 x 2.1 mm, 12 mA"
 			(at 34.29 59.69 0)
 			(effects
 				(font
