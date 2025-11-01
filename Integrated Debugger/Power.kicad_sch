@@ -10,6 +10,323 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols
+		(symbol "Picoballoon ICs:Generic N-MOSFET"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Generic N-MOSFET"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Generic N-MOSFET_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Generic N-MOSFET_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Picoballoon ICs:LDO TPS7A26"
 			(pin_names
 				(offset 1.016)
@@ -1447,160 +1764,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Picoballoon Passives:Schottky diode"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Schottky diode"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, filled shape"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Schottky diode_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Schottky diode_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Picoballoon Power Symbols:+3.3V"
 			(power)
 			(pin_names
@@ -2020,7 +2183,7 @@
 		)
 		(uuid "11f69a46-f277-4c43-89d9-df5168444061")
 	)
-	(text "SOLAR POWER SWITCH"
+	(text "AUXILIARY POWER SWITCH"
 		(exclude_from_sim no)
 		(at 102.235 87.63 0)
 		(effects
@@ -2119,16 +2282,22 @@
 		(uuid "50af8b30-172e-4616-aa1e-c74e4f0f9d2c")
 	)
 	(junction
-		(at 72.39 63.5)
+		(at 162.56 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60047822-97a8-4bab-83ad-586c163e179b")
+		(uuid "592cfca5-cfc5-42cf-8b84-36a9a8d23b71")
 	)
 	(junction
 		(at 26.67 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f80e785-3040-4816-9735-2df9a571c424")
+	)
+	(junction
+		(at 72.39 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884567e7-b11b-4104-87ad-60e3b475e64d")
 	)
 	(junction
 		(at 67.31 33.02)
@@ -2173,7 +2342,7 @@
 		(uuid "ecd66c80-29cb-401b-91ce-15dd51a84153")
 	)
 	(junction
-		(at 171.45 52.07)
+		(at 171.45 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f05e23cf-42ae-49f6-9ba4-c795dcbb1bc0")
@@ -2186,7 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 41.91) (xy 171.45 52.07)
+			(xy 171.45 41.91) (xy 171.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 52.07) (xy 171.45 55.88)
+			(xy 171.45 57.15) (xy 171.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 52.07) (xy 171.45 52.07)
+			(xy 162.56 57.15) (xy 171.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2373,16 +2542,6 @@
 			(type default)
 		)
 		(uuid "31d8792b-d53a-446c-a756-a37de7cf1d1e")
-	)
-	(wire
-		(pts
-			(xy 162.56 48.26) (xy 162.56 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32ffed31-cfd1-4376-95ea-f3c50a106ea0")
 	)
 	(wire
 		(pts
@@ -2456,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 43.18) (xy 162.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a78c18-8e7e-4afb-b690-acb76dafa404")
+	)
+	(wire
+		(pts
 			(xy 41.91 66.04) (xy 39.37 66.04)
 		)
 		(stroke
@@ -2496,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 36.83) (xy 162.56 40.64)
+			(xy 162.56 36.83) (xy 162.56 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2593,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "717963a9-d1fe-4bb1-8694-b98848827380")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7247fbc2-460c-4bd8-96d4-ad6393dbd940")
 	)
 	(wire
 		(pts
@@ -2736,6 +2915,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 34.29) (xy 166.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de01c44-9ea4-4676-ada6-711b663772a9")
+	)
+	(wire
+		(pts
 			(xy 142.24 99.06) (xy 133.35 99.06)
 		)
 		(stroke
@@ -2756,16 +2945,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 63.5) (xy 62.23 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f4e09a-b8cf-404f-9272-65f7f289254c")
-	)
-	(wire
-		(pts
 			(xy 142.24 90.17) (xy 142.24 88.9)
 		)
 		(stroke
@@ -2773,6 +2952,16 @@
 			(type default)
 		)
 		(uuid "a4940296-ecce-4f76-8b56-6031dd30c69c")
+	)
+	(wire
+		(pts
+			(xy 152.4 25.4) (xy 152.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a601cd82-12cc-4b96-b927-9dc86e388f71")
 	)
 	(wire
 		(pts
@@ -2813,16 +3002,6 @@
 			(type default)
 		)
 		(uuid "b0935390-4839-4cc5-b56c-2efeca9882d3")
-	)
-	(wire
-		(pts
-			(xy 72.39 63.5) (xy 72.39 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b93ba70f-ed20-4032-820c-832083dcf0b0")
 	)
 	(wire
 		(pts
@@ -2873,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "c6b34260-3216-433f-a030-e46cff0cacef")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 72.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0f057a-4c52-425d-a166-dce1afb83455")
 	)
 	(wire
 		(pts
@@ -2946,16 +3135,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 34.29) (xy 166.37 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daed9259-f0d3-4b33-882a-3b89c8e77e24")
-	)
-	(wire
-		(pts
 			(xy 38.1 20.32) (xy 34.29 20.32)
 		)
 		(stroke
@@ -3016,13 +3195,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 63.5) (xy 72.39 63.5)
+			(xy 152.4 39.37) (xy 152.4 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e81bd86f-05af-4a65-ae8c-2c1966b5bd52")
+		(uuid "e86f67e1-ee2c-488c-8be7-b89dd11bce95")
 	)
 	(wire
 		(pts
@@ -3076,6 +3255,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 54.61) (xy 162.56 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7845fb7-e862-4af3-9fb0-4f55a61e825c")
+	)
+	(wire
+		(pts
 			(xy 123.19 36.83) (xy 127 36.83)
 		)
 		(stroke
@@ -3084,16 +3273,15 @@
 		)
 		(uuid "f8c59c00-de23-4478-8d0c-545269bc1315")
 	)
-	(label "V_SOLAR_UNFILT"
-		(at 59.69 63.5 0)
-		(effects
-			(font
-				(size 0.254 0.254)
-				(color 255 255 225 1)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 152.4 43.18) (xy 162.56 43.18)
 		)
-		(uuid "507d990b-b949-4bf6-ac3e-a7e45fe135ba")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa13e13d-c49f-4888-8b5a-b66c8c5a1099")
 	)
 	(label "V_TARGET_UNFILT"
 		(at 59.69 106.68 0)
@@ -3106,7 +3294,7 @@
 		)
 		(uuid "881efd34-46ad-44db-88ac-456a1f6aa7c5")
 	)
-	(hierarchical_label "SOL_EN"
+	(hierarchical_label "AUX_EN"
 		(shape input)
 		(at 36.83 66.04 180)
 		(effects
@@ -3117,7 +3305,7 @@
 		)
 		(uuid "48a863a5-08dd-4c16-a73f-f4e6946f17b9")
 	)
-	(hierarchical_label "SOL_EN"
+	(hierarchical_label "AUX_EN"
 		(shape input)
 		(at 119.38 34.29 180)
 		(effects
@@ -3130,12 +3318,12 @@
 	)
 	(hierarchical_label "TARGET_EN"
 		(shape input)
-		(at 158.75 34.29 180)
+		(at 152.4 25.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bba178ba-6b2c-49b5-a052-cbd8821cea9c")
 	)
@@ -4211,7 +4399,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor")
-		(at 162.56 44.45 0)
+		(at 162.56 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4220,7 +4408,7 @@
 		(dnp no)
 		(uuid "3a66871e-97d9-4b2d-a23a-8c585a023a26")
 		(property "Reference" "R19"
-			(at 161.29 43.4975 0)
+			(at 161.29 49.8475 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4230,7 +4418,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 161.29 45.4025 0)
+			(at 161.29 51.7525 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4240,7 +4428,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor 0201"
-			(at 164.338 44.45 90)
+			(at 164.338 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 44.45 0)
+			(at 162.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4446,7 @@
 			)
 		)
 		(property "Description" "Generic Resistor"
-			(at 162.56 44.45 0)
+			(at 162.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4455,7 @@
 			)
 		)
 		(property "MPN" "ERJ1GNF1002C "
-			(at 162.56 44.45 0)
+			(at 162.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4464,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C717002"
-			(at 162.56 44.45 0)
+			(at 162.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4473,7 @@
 			)
 		)
 		(property "LCSC Part #" "C717002"
-			(at 162.56 44.45 0)
+			(at 162.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,93 +5302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Picoballoon Passives:Schottky diode")
-		(at 66.04 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73657f3a-15dc-47d2-9799-f8ac0bc44f56")
-		(property "Reference" "D5"
-			(at 66.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CTS520,L3F(T"
-			(at 66.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Diode SOD-323F"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, filled shape"
-			(at 66.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PMEG2020EJ,115"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C841776"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09390a4d-a498-48b0-9bf1-758463b4396f")
-		)
-		(pin "2"
-			(uuid "02f03d8a-0298-41b9-ba56-1ab617a22da3")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
 		(at 22.86 119.38 0)
 		(mirror y)
@@ -5433,6 +5534,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Picoballoon Power Symbols:+3.3V")
+		(at 127 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8de9bd02-14c8-4df8-b90f-55f6d0c555a9")
+		(property "Reference" "#PWR043"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_AUX"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a158ca43-ff2c-4c4d-bb52-fb5274b8f527")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Picoballoon Passives:Resistor")
 		(at 39.37 71.12 0)
 		(mirror y)
@@ -5533,7 +5699,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:GND")
-		(at 171.45 55.88 0)
+		(at 171.45 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5541,7 +5707,7 @@
 		(dnp no)
 		(uuid "a65449c7-7f2f-4b34-b633-943e05d2d093")
 		(property "Reference" "#PWR047"
-			(at 171.45 62.23 0)
+			(at 171.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 59.69 0)
+			(at 171.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 55.88 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 55.88 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 55.88 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +6139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solar Override"
+		(property "Value" "Auxiliary Override"
 			(at 129.54 26.67 0)
 			(effects
 				(font
@@ -6177,71 +6343,6 @@
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 127 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be96e913-8282-4c5c-8258-4d3a75f985a0")
-		(property "Reference" "#PWR043"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_TARGET"
-			(at 127 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38ece8ee-7718-4299-876b-a6e5d3b127a6")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6729,6 +6830,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Picoballoon ICs:Generic N-MOSFET")
+		(at 154.94 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caeef616-d00e-4290-b66e-ba2951a13eb1")
+		(property "Reference" "Q2"
+			(at 148.59 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Generic N-MOSFET"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Picoballoon ICs:PICOSTAR-3"
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 154.94 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19c3588e-da94-4f2c-a2dc-8268702e3955")
+		)
+		(pin "3"
+			(uuid "fbfef715-ee5b-4b0c-80df-c3a568c97b8e")
+		)
+		(pin "1"
+			(uuid "93724971-f769-4c7f-9266-dee22ce20211")
+		)
+		(instances
+			(project ""
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
 		(at 72.39 58.42 0)
 		(unit 1)
@@ -6746,7 +6948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_SOLAR"
+		(property "Value" "V_AUX"
 			(at 72.39 54.61 0)
 			(effects
 				(font
@@ -6991,71 +7193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 24.13 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef603ceb-f9ac-4e55-84be-4a4c85a80da0")
-		(property "Reference" "#PWR028"
-			(at 24.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 24.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc54c57f-70dd-4386-a6fd-7ecc87c21c03")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Picoballoon Passives:Capacitor")
 		(at 142.24 93.98 0)
 		(unit 1)
@@ -7149,6 +7286,73 @@
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Power Symbols:+3.3V")
+		(at 24.13 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fafb77e0-3791-43e4-9540-e874602e8256")
+		(property "Reference" "#PWR028"
+			(at 24.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 54.864 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9488742c-1d39-43fc-bfcd-cc43ca077b83")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

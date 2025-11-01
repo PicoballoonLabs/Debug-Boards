@@ -2746,6 +2746,12 @@
 		(uuid "a9ea9f2d-adb9-482a-ad6a-c3e7d25ba7a4")
 	)
 	(junction
+		(at 165.1 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50cf6fb-b365-4450-922c-b61d57b9b8eb")
+	)
+	(junction
 		(at 194.31 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2845,6 +2851,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 92.71) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044faeff-5ae9-4de7-acd0-ca4cbd358278")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c16e38-ab5b-4615-a18e-adc59b3b2d4c")
+	)
+	(wire
+		(pts
 			(xy 144.78 45.72) (xy 144.78 58.42)
 		)
 		(stroke
@@ -2885,6 +2911,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 76.2) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6bf9e9-1ed0-4b6e-8a2d-96eba2e8a8b2")
+	)
+	(wire
+		(pts
 			(xy 76.2 120.65) (xy 80.01 120.65)
 		)
 		(stroke
@@ -2902,6 +2938,16 @@
 			(type default)
 		)
 		(uuid "14687a75-21dc-4f9c-8bcb-3c6f102a79ba")
+	)
+	(bus
+		(pts
+			(xy 152.4 50.8) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157acc9c-19fb-45c5-a478-ee85b5d9420c")
 	)
 	(wire
 		(pts
@@ -2932,6 +2978,16 @@
 			(type default)
 		)
 		(uuid "20c754b0-eb33-457c-8d9e-4f0aaa4c5369")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20da358b-7a0d-41ac-92b0-7c1d5882fe82")
 	)
 	(wire
 		(pts
@@ -2982,6 +3038,16 @@
 			(type default)
 		)
 		(uuid "299689c5-e21e-4ec3-b173-bb982b7d5bd2")
+	)
+	(wire
+		(pts
+			(xy 156.21 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9c8f72-546a-4880-9eab-673163d330c0")
 	)
 	(wire
 		(pts
@@ -3072,16 +3138,6 @@
 			(type default)
 		)
 		(uuid "48a94d6f-f9b6-4674-a7a7-cd39cd16de6e")
-	)
-	(bus
-		(pts
-			(xy 147.32 81.28) (xy 147.32 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501c1711-7ae4-4882-96e2-d1000d782dc9")
 	)
 	(wire
 		(pts
@@ -3243,16 +3299,6 @@
 		)
 		(uuid "88437b2f-6a9d-4336-9fd1-0fb82ee36f12")
 	)
-	(bus
-		(pts
-			(xy 147.32 81.28) (xy 152.4 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ba99e9-8227-4d64-be06-133359cd986c")
-	)
 	(wire
 		(pts
 			(xy 64.77 81.28) (xy 64.77 85.09)
@@ -3342,16 +3388,6 @@
 			(type default)
 		)
 		(uuid "a5376761-5ee0-4166-9f1c-f75693463437")
-	)
-	(bus
-		(pts
-			(xy 147.32 63.5) (xy 138.43 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a666767c-c0a5-4841-8348-2b0ec52bdb88")
 	)
 	(wire
 		(pts
@@ -3563,6 +3599,16 @@
 		)
 		(uuid "deb9c3e7-d644-4e58-abd9-b74a39d17db0")
 	)
+	(bus
+		(pts
+			(xy 152.4 50.8) (xy 181.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e005c81d-f81c-48bd-95c5-2c85dbb2a250")
+	)
 	(wire
 		(pts
 			(xy 138.43 58.42) (xy 144.78 58.42)
@@ -3582,6 +3628,26 @@
 			(type default)
 		)
 		(uuid "e6faa9a3-6cbb-4a65-958d-d7a698ddd782")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78724f5-1ae0-4f14-8372-c26fb9cefbef")
+	)
+	(wire
+		(pts
+			(xy 156.21 68.58) (xy 156.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0025ec-d979-4769-aa52-0b0a543f353a")
 	)
 	(wire
 		(pts
@@ -3662,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "f78d6a5e-37f0-4ef2-944b-377de88cdfb5")
+	)
+	(bus
+		(pts
+			(xy 152.4 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f967f024-b651-4ccb-a856-aeb4f4f77e8f")
 	)
 	(wire
 		(pts
@@ -3816,6 +3892,105 @@
 			(project ""
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Passives:Resistor")
+		(at 165.1 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1010f1c7-a781-4c9e-92d6-8a934e35ef9d")
+		(property "Reference" "R21"
+			(at 166.37 84.1375 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 166.37 86.0425 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Picoballoon Passives:Resistor 0201"
+			(at 163.322 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic Resistor"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ1GNF1002C "
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C717002"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C717002"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b4fbd96-a8e6-4675-8b2b-d9b1c67c5efb")
+		)
+		(pin "1"
+			(uuid "21c0f10d-8a91-40bb-af63-c9ff104088c1")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4964,6 +5139,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Picoballoon Passives:Resistor")
+		(at 165.1 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ca6c310-d8e4-4a38-b7aa-9dbafc3ca91a")
+		(property "Reference" "R20"
+			(at 166.37 67.6275 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 166.37 69.5325 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Picoballoon Passives:Resistor 0201"
+			(at 163.322 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic Resistor"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-074K7L"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C138135"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C138135"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ed1c957-4444-4ad6-b7a9-504d468ecdcb")
+		)
+		(pin "1"
+			(uuid "3524f532-c862-43d0-bec3-94b7424b67db")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Picoballoon Passives:LED")
 		(at 72.39 66.04 180)
 		(unit 1)
@@ -5618,6 +5892,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Picoballoon Power Symbols:GND")
+		(at 165.1 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab506e14-edb8-43eb-b5db-d3de3455988c")
+		(property "Reference" "#PWR050"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adf8ef2f-1915-4daa-8319-756b6b362a94")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Picoballoon Passives:Resistor")
 		(at 162.56 140.97 90)
 		(unit 1)
@@ -5713,6 +6054,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c518b26e-dbce-496f-ae52-136612fe0355")
+		(property "Reference" "#PWR049"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e3a3da-d45f-4bb4-aa2d-221807483756")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 110.49 22.86)
 		(size 55.88 22.86)
@@ -5747,7 +6154,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SOL_EN" input
+		(pin "AUX_EN" input
 			(at 144.78 45.72 270)
 			(uuid "d1fe4d38-1b26-4a0b-8fe2-79c2df66df4b")
 			(effects
@@ -5909,7 +6316,7 @@
 				(justify right)
 			)
 		)
-		(pin "SOL_EN" output
+		(pin "AUX_EN" output
 			(at 138.43 58.42 0)
 			(uuid "8198626a-214f-42d5-bd51-6c40431c475f")
 			(effects
@@ -5929,6 +6336,16 @@
 				(justify left)
 			)
 		)
+		(pin "VBUS" passive
+			(at 138.43 68.58 0)
+			(uuid "60f9fbef-6029-47dd-8e22-7cc9701e943d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
@@ -5938,7 +6355,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 54.61)
+		(at 181.61 41.91)
 		(size 26.67 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5955,7 +6372,7 @@
 		)
 		(uuid "d9cee7b3-2b2b-4107-bac3-796b154ca54d")
 		(property "Sheetname" "Target"
-			(at 152.4 53.8984 0)
+			(at 181.61 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6381,7 @@
 			)
 		)
 		(property "Sheetfile" "Target.kicad_sch"
-			(at 152.4 86.9446 0)
+			(at 181.61 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +6390,7 @@
 			)
 		)
 		(pin "i{TARGET_BUS}" bidirectional
-			(at 152.4 81.28 180)
+			(at 181.61 50.8 180)
 			(uuid "c9960b6f-012f-4f34-afe7-d0f2fc6b80fe")
 			(effects
 				(font
