@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Target")
-		(date "2025-08-15")
-		(rev "1.0.0")
+		(date "2025-11-01")
+		(rev "1.1.1")
 	)
 	(lib_symbols
 		(symbol "Picoballoon ICs:NMOS DMN2991UDA-7B"

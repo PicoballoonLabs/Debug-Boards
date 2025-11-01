@@ -164,7 +164,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -206,6 +206,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.2,
         0.35
       ],
       "tuning_pattern_settings": {
@@ -462,7 +463,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -769,11 +770,11 @@
     ]
   ],
   "text_variables": {
-    "CHK_APP_DATE": "8/25/2025",
+    "CHK_APP_DATE": "11/1/2025",
     "CHK_NAME": "Jakub Nagy",
-    "DSN_APP_DATE": "8/24/2025",
+    "DSN_APP_DATE": "11/1/2025",
     "DSN_NAME": "Adam Gramblicka",
-    "ENG_APP_DATE": "8/24/2025",
+    "ENG_APP_DATE": "11/1/2025",
     "ENG_NAME": "Adam Gramblicka",
     "PROJECT": "Integrated Debugger"
   }
