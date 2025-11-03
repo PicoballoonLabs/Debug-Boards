@@ -6858,7 +6858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Picoballoon ICs:PICOSTAR-3"
+		(property "Footprint" "Picoballoon ICs:PICOSTAR-3_0.65"
 			(at 149.86 31.75 0)
 			(effects
 				(font
