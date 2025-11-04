@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Power supply")
-		(date "2025-11-01")
-		(rev "1.1.1")
+		(date "2025-11-03")
+		(rev "1.1.2")
 	)
 	(lib_symbols
 		(symbol "Picoballoon ICs:Generic N-MOSFET"
@@ -5007,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 81.28 104.648 90)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Debugger")
-		(date "2025-11-01")
-		(rev "1.1.1")
+		(date "2025-11-03")
+		(rev "1.1.2")
 	)
 	(lib_symbols
 		(symbol "Picoballoon ICs:USBULC6-2M6"

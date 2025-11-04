@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Target")
-		(date "2025-11-01")
-		(rev "1.1.1")
+		(date "2025-11-03")
+		(rev "1.1.2")
 	)
 	(lib_symbols
 		(symbol "Picoballoon ICs:NMOS DMN2991UDA-7B"
@@ -632,7 +632,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RGY_R-PVQFN-N16_EP2.05x2.55mm"
+			(property "Footprint" "Picoballoon ICs:PVQFN-N16"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -4270,7 +4270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 31.75 122.428 90)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 55.88 46.482 90)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 55.88 41.402 90)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 55.88 38.862 90)
 			(effects
 				(font
@@ -5237,7 +5237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 55.88 33.782 90)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 55.88 43.942 90)
 			(effects
 				(font
@@ -5574,7 +5574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Resistor Pack YC248-JR-07100RL"
+		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
 			(at 55.88 36.322 90)
 			(effects
 				(font
@@ -6009,7 +6009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:Texas_RGY_R-PVQFN-N16_EP2.05x2.55mm"
+		(property "Footprint" "Picoballoon ICs:PVQFN-N16"
 			(at 35.56 55.88 0)
 			(effects
 				(font

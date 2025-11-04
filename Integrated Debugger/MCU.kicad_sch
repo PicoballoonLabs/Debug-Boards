@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "MCU")
-		(date "2025-11-01")
-		(rev "1.1.1")
+		(date "2025-11-03")
+		(rev "1.1.2")
 	)
 	(lib_symbols
 		(symbol "Picoballoon ICs:STM32F103CBUx"
@@ -32,7 +32,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Picoballoon ICs:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(property "Footprint" "Picoballoon ICs:QFN-48 7x7mm"
 				(at -15.24 -38.1 0)
 				(effects
 					(font
@@ -3786,7 +3786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "Picoballoon ICs:QFN-48 7x7mm"
 			(at 76.2 101.6 0)
 			(effects
 				(font
@@ -5708,7 +5708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:Crystal CSTNE8M00GH5C000R0"
+		(property "Footprint" "Picoballoon Passives:Crystal 3213-3P"
 			(at 77.47 40.64 0)
 			(effects
 				(font

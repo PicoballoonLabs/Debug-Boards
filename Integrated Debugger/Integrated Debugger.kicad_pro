@@ -60,14 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|163437500|89362500|47f76d6a-327f-4bb2-b695-f7a40b3ae690|15b848fe-a0f8-401d-8ac8-9b1615a1e45b",
-          ""
-        ],
-        [
-          "clearance|163937500|89362500|d855bd98-36a0-4934-8f23-65bb01603506|15b848fe-a0f8-401d-8ac8-9b1615a1e45b",
-          ""
-        ],
-        [
           "clearance|172706005|86300407|195129bd-b36a-4f62-904d-ea32fdb6090c|eef8032e-64d3-42c2-aa76-eee45ce91c1f",
           ""
         ],
@@ -770,11 +762,11 @@
     ]
   ],
   "text_variables": {
-    "CHK_APP_DATE": "11/1/2025",
+    "CHK_APP_DATE": "11/4/2025",
     "CHK_NAME": "Jakub Nagy",
     "DSN_APP_DATE": "11/1/2025",
     "DSN_NAME": "Adam Gramblicka",
-    "ENG_APP_DATE": "11/1/2025",
+    "ENG_APP_DATE": "11/3/2025",
     "ENG_NAME": "Adam Gramblicka",
     "PROJECT": "Integrated Debugger"
   }
