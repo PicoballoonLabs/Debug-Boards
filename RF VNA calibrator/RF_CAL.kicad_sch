@@ -1,0 +1,2176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "79c7c087-4e1f-47d4-8088-5fd7bbe4a849")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Picoballoon Mechanical & Misc:Coaxial Testpoint"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Coaxial Testpoint"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Subminiature Coaxial Switch testpoint"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MM8030-2610RK0 "
+				(at 0 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "MM8030-2610RK0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" " Coaxial Switch RF testpoint"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CoaxialSwitch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Coaxial Testpoint_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 0)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 0)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Coaxial Testpoint_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Picoballoon Passives:Resistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 0.9525 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0Ω"
+				(at 1.27 -0.9525 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_1_1"
+				(rectangle
+					(start -0.9652 1.6129)
+					(end 0.9398 -1.5621)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.2225)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.2225)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "SHRT\n"
+		(exclude_from_sim no)
+		(at 49.022 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a970c30-77d9-4597-82d1-94b6d1635c56")
+	)
+	(text "LOAD"
+		(exclude_from_sim no)
+		(at 119.126 140.462 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4db4f4c9-58e4-4c66-b3a0-41f2728a4cd2")
+	)
+	(text "OPEN"
+		(exclude_from_sim no)
+		(at 86.614 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b354350c-caf4-43e2-9d7a-c61707a4f30c")
+	)
+	(text "THRU"
+		(exclude_from_sim no)
+		(at 86.106 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed64eec1-6e90-4676-8aa3-cdf8e8addb68")
+	)
+	(junction
+		(at 54.61 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08797f48-d702-4659-b48a-765d26512d19")
+	)
+	(junction
+		(at 129.54 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ddb0f78-f9c9-41a7-901e-2dbc98958866")
+	)
+	(no_connect
+		(at 91.44 149.86)
+		(uuid "efe3702a-cf4d-4fc7-8888-6d8c08c1268c")
+	)
+	(wire
+		(pts
+			(xy 54.61 152.4) (xy 54.61 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0818f949-6e25-4335-8001-6d9c5f8fa825")
+	)
+	(wire
+		(pts
+			(xy 135.89 158.75) (xy 135.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1951bdc9-7d56-4a03-bf3f-6fdccc646b7f")
+	)
+	(wire
+		(pts
+			(xy 77.47 181.61) (xy 99.06 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2235cd2b-3414-4d10-a779-76e53b5cf41c")
+	)
+	(wire
+		(pts
+			(xy 121.92 151.13) (xy 121.92 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e449d36-8a7f-49df-95fc-2e0016592e11")
+	)
+	(wire
+		(pts
+			(xy 129.54 158.75) (xy 129.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49719d73-7fb2-41f4-8772-4493509e43a1")
+	)
+	(wire
+		(pts
+			(xy 129.54 148.59) (xy 135.89 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ff06f3-67b3-4cd6-a514-47c6327e90fd")
+	)
+	(wire
+		(pts
+			(xy 99.06 187.96) (xy 99.06 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688fc162-0a56-4bb1-9466-98fe3d5cc8fe")
+	)
+	(wire
+		(pts
+			(xy 111.76 148.59) (xy 111.76 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7308a89e-9d53-4daf-a3b9-299c1f655d97")
+	)
+	(wire
+		(pts
+			(xy 77.47 187.96) (xy 77.47 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90afe120-ceae-480b-9a6b-c0a250d6f1ed")
+	)
+	(wire
+		(pts
+			(xy 109.22 181.61) (xy 109.22 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a9a246-e130-4b46-ab95-9ce40dc9bfd6")
+	)
+	(wire
+		(pts
+			(xy 67.31 181.61) (xy 67.31 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa48e5ca-e586-47a8-933f-f034557b1047")
+	)
+	(wire
+		(pts
+			(xy 54.61 149.86) (xy 54.61 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d402b8-05ea-43ac-868a-3761befb9f66")
+	)
+	(wire
+		(pts
+			(xy 81.28 149.86) (xy 81.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5533976-f369-4e78-9116-f81a0d5da207")
+	)
+	(wire
+		(pts
+			(xy 121.92 148.59) (xy 129.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1640c07-554e-4242-8cc6-7a95470e619a")
+	)
+	(wire
+		(pts
+			(xy 44.45 149.86) (xy 44.45 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cd26d6-0615-4345-be62-04c8ab5ca753")
+	)
+	(wire
+		(pts
+			(xy 91.44 152.4) (xy 91.44 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee95fc70-df0a-4e2b-8fcb-dbd16c1b9a12")
+	)
+	(label "50Ohm"
+		(at 127 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d30b87a4-9a35-4131-ae5e-a99c7bfa9b9b")
+	)
+	(label "50Ohm_thru"
+		(at 82.55 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f858f0c5-670c-4199-a708-cf0714125330")
+	)
+	(symbol
+		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
+		(at 72.39 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d7f224-b908-4378-b755-d2eb6e3d4e73")
+		(property "Reference" "TP4"
+			(at 72.39 179.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Coaxial Testpoint"
+			(at 72.39 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
+			(at 72.39 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
+			(at 72.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Subminiature Coaxial Switch testpoint"
+			(at 72.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MM8030-2610RK0 "
+			(at 72.39 186.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "MM8030-2610RK0"
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G1"
+			(uuid "7d9e22cd-5508-4947-8bdb-1cc4eccb7c96")
+		)
+		(pin "2"
+			(uuid "7a87e34d-285b-4d32-a1b4-bab071296896")
+		)
+		(pin "1"
+			(uuid "72afc471-4dcd-45a9-92cf-238b49f02953")
+		)
+		(pin "G2"
+			(uuid "55458457-d5ba-470f-9f51-adc225d9a780")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b7e7bcb-0c53-4fdc-ab12-17ced8e72782")
+		(property "Reference" "#PWR07"
+			(at 109.22 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29a73a9c-026c-4a74-b004-23a087cb785c")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b9b875a-380e-46ca-afb4-0dfa30e9b4e2")
+		(property "Reference" "#PWR01"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95196b40-816f-44df-b2a8-ec5da996a40f")
+		)
+		(instances
+			(project ""
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "247ef886-c490-4642-8ad2-9dc4d7da8a53")
+		(property "Reference" "#PWR06"
+			(at 67.31 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d19f4bf6-8156-403b-8e49-198152f06c38")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28c55c23-4102-47ad-935e-c08b15c0fb0e")
+		(property "Reference" "#PWR08"
+			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8df65a6f-3648-47eb-9d64-90dfbd5dbba9")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa6e644-3a90-4f03-8ba1-93bef2581b17")
+		(property "Reference" "#PWR011"
+			(at 129.54 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66628d84-26b3-4b7e-af40-1e329527d1ce")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
+		(at 49.53 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46ed2557-b78c-4eee-bb3a-14fa09ceecd7")
+		(property "Reference" "TP1"
+			(at 49.53 147.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Coaxial Testpoint"
+			(at 49.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
+			(at 49.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Subminiature Coaxial Switch testpoint"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MM8030-2610RK0 "
+			(at 49.53 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "MM8030-2610RK0"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G1"
+			(uuid "810e4bd9-7bf6-45db-ba87-baa52e5c9726")
+		)
+		(pin "G2"
+			(uuid "1c11730d-8b74-4e86-892f-f7667cb105b4")
+		)
+		(pin "2"
+			(uuid "7638fbb5-3047-4953-a7f6-2fd8bc606276")
+		)
+		(pin "1"
+			(uuid "78c8b5ac-0279-48c6-a663-3213dd8e8390")
+		)
+		(instances
+			(project ""
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6000fd9b-7ad1-4e4f-8bea-273e8948d154")
+		(property "Reference" "#PWR05"
+			(at 77.47 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54896512-6927-4aa2-aa13-fbe34e0ce0f1")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b050a76-e55b-4257-a612-bd467886b7fb")
+		(property "Reference" "#PWR012"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "657e14c6-28b4-4f95-a0c9-0b69777016c7")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
+		(at 104.14 182.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d309a4-4c9f-4959-91a5-f504276ad3bc")
+		(property "Reference" "TP5"
+			(at 104.14 179.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Coaxial Testpoint"
+			(at 104.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
+			(at 104.14 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Subminiature Coaxial Switch testpoint"
+			(at 104.14 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MM8030-2610RK0 "
+			(at 104.14 186.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "MM8030-2610RK0"
+			(at 104.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "1de82290-daa1-444c-ab01-b167f799e63d")
+		)
+		(pin "1"
+			(uuid "42fbfc4a-0ac0-483b-a216-a021310628c0")
+		)
+		(pin "2"
+			(uuid "3652466e-fd0f-45c4-912a-b84cf86b89b6")
+		)
+		(pin "G1"
+			(uuid "42072f10-1d3e-4d03-bb97-869ade5c6d88")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0161630-f45a-4671-925a-46d7bbf3519d")
+		(property "Reference" "#PWR010"
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65a61dcd-6914-4509-a1a0-102fbe3b7311")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3accda1-8fb4-4476-ad9c-cb0b06e42a27")
+		(property "Reference" "#PWR04"
+			(at 99.06 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71675593-4f96-44ec-8db6-1a605426e34c")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbcbf231-f2bf-4aa9-9ad1-2dcfb7e54d9b")
+		(property "Reference" "#PWR02"
+			(at 91.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "903c4ad4-a613-418d-b7a0-a9b8acab9fd0")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce96680f-8590-4e9b-8f2a-511b96a61ec9")
+		(property "Reference" "#PWR09"
+			(at 81.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42430069-74cb-415f-8e19-b5c44b3460d2")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
+		(at 116.84 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e19749be-0801-4a30-8187-f498e7ca4fef")
+		(property "Reference" "TP3"
+			(at 116.84 146.05 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Coaxial Testpoint"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Subminiature Coaxial Switch testpoint"
+			(at 116.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MM8030-2610RK0 "
+			(at 116.84 153.67 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "MM8030-2610RK0"
+			(at 116.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "494e06b4-4a26-4ac7-818a-bf3bae291133")
+		)
+		(pin "1"
+			(uuid "b4889df5-7ee5-4ae3-bcb4-bb1067887d8c")
+		)
+		(pin "2"
+			(uuid "16cbc1e6-bdec-4fc9-ad03-6607619f40c8")
+		)
+		(pin "G1"
+			(uuid "fe20d49a-87f9-42e8-a9ef-1bbec5133fea")
+		)
+		(instances
+			(project ""
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e709d90c-fe36-4815-bfff-3418c285ddb8")
+		(property "Reference" "#PWR03"
+			(at 121.92 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f77316-63ce-44df-97a9-7840772a5c88")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Passives:Resistor")
+		(at 135.89 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7dd7844-e8a0-4d73-a56a-83ba2f6f6541")
+		(property "Reference" "R2"
+			(at 137.16 151.4475 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 136.398 155.448 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Picoballoon Passives:Resistor 0603"
+			(at 134.112 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C160603.pdf"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic Resistor"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C160603"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c29da815-7d13-4f1e-a913-df60085a99e4")
+		)
+		(pin "1"
+			(uuid "1a73f59d-974e-4b40-b168-67949e42ce3e")
+		)
+		(instances
+			(project "RF_CAL"
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
+		(at 86.36 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec867b21-58ae-473d-8097-4a1d81516c5f")
+		(property "Reference" "TP2"
+			(at 86.36 147.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Coaxial Testpoint"
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
+			(at 86.36 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Subminiature Coaxial Switch testpoint"
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MM8030-2610RK0 "
+			(at 86.36 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "MM8030-2610RK0"
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G1"
+			(uuid "03023ce8-83bb-4156-b77a-0651991a61cf")
+		)
+		(pin "2"
+			(uuid "4e68cf73-8676-4c06-8805-b872e2fa2508")
+		)
+		(pin "1"
+			(uuid "e293b98c-9858-4e5f-974e-040e2810fbae")
+		)
+		(pin "G2"
+			(uuid "9a211ad9-5674-4ad1-8be9-3fa4c979d942")
+		)
+		(instances
+			(project ""
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Passives:Resistor")
+		(at 129.54 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f050b4f8-f4f1-4532-aef8-2ca4fc98d5ae")
+		(property "Reference" "R1"
+			(at 130.81 151.4475 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 129.794 155.448 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Picoballoon Passives:Resistor 0603"
+			(at 127.762 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C160603.pdf"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic Resistor"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C160603"
+			(at 129.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b58dee35-6053-4069-b06b-94239ef8d0dd")
+		)
+		(pin "1"
+			(uuid "d8caa587-4dce-420c-8ac9-159a6cea4452")
+		)
+		(instances
+			(project ""
+				(path "/79c7c087-4e1f-47d4-8088-5fd7bbe4a849"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
