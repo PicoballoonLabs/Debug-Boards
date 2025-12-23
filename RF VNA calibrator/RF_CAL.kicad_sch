@@ -860,7 +860,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "MM8030-2610RK0"
+		(property "LCSC Part #" "C91632"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -1285,7 +1285,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "MM8030-2610RK0"
+		(property "LCSC Part #" "C91632"
 			(at 53.34 66.04 0)
 			(effects
 				(font
@@ -1513,7 +1513,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "MM8030-2610RK0"
+		(property "LCSC Part #" "C91632"
 			(at 49.53 21.59 0)
 			(effects
 				(font
@@ -1873,7 +1873,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "MM8030-2610RK0"
+		(property "LCSC Part #" "C91632"
 			(at 87.63 20.32 0)
 			(effects
 				(font
@@ -2034,6 +2034,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RT0603FRD07100RL"
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c29da815-7d13-4f1e-a913-df60085a99e4")
 		)
@@ -2114,7 +2123,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "MM8030-2610RK0"
+		(property "LCSC Part #" "C91632"
 			(at 20.32 66.04 0)
 			(effects
 				(font
@@ -2201,6 +2210,15 @@
 			)
 		)
 		(property "LCSC Part #" "C160603"
+			(at 100.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603FRD07100RL"
 			(at 100.33 22.86 0)
 			(effects
 				(font
