@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|81000000|131112500|bd7ec461-a885-4a35-9917-64cf6f3e2143|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|93000000|133250000|145668b4-fbc4-4b47-85f4-08fcb2275dc2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|93000000|134750000|ec151e31-7b6f-47b0-8c65-8bac88867fc1|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -664,7 +651,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "${PICOBALLOON_LIBRARY}/Templates/Sheet.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -682,5 +669,13 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "CHK_APP_DATE": "12/23/2025",
+    "CHK_NAME": "Jakub Nagy",
+    "DSN_APP_DATE": "12/10/2025",
+    "DSN_NAME": "Radovan Nerad",
+    "ENG_APP_DATE": "12/10/2025",
+    "ENG_NAME": "Radovan Nerad",
+    "PROJECT": "VNA calibration board"
+  }
 }

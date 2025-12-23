@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "79c7c087-4e1f-47d4-8088-5fd7bbe4a849")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(title "VNA calibration board")
+		(date "2025-12-23")
+		(rev "1.0.0")
+	)
 	(lib_symbols
 		(symbol "Picoballoon Mechanical & Misc:Coaxial Testpoint"
 			(pin_names
@@ -502,65 +507,117 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SHRT\n"
+	(rectangle
+		(start 5.08 49.53)
+		(end 35.56 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0aef4f1d-8c21-4eef-b900-d30f60a5be8e)
+	)
+	(rectangle
+		(start 5.08 5.08)
+		(end 64.77 46.99)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 310aff5a-7d68-4196-af29-44b221a2dad6)
+	)
+	(rectangle
+		(start 38.1 49.53)
+		(end 68.58 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 59dbcc6d-cf0a-4f01-851d-38f2849edd6a)
+	)
+	(rectangle
+		(start 67.31 5.08)
+		(end 127 46.99)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c19bba45-6b91-4262-a770-f618070d182e)
+	)
+	(text "THROUGH"
 		(exclude_from_sim no)
-		(at 49.022 142.494 0)
+		(at 63.246 44.958 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(uuid "4a970c30-77d9-4597-82d1-94b6d1635c56")
+		(uuid "83cfce05-d9e4-4058-8411-b2f3a913035e")
 	)
 	(text "LOAD"
 		(exclude_from_sim no)
-		(at 119.126 140.462 0)
+		(at 125.476 44.958 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(uuid "4db4f4c9-58e4-4c66-b3a0-41f2728a4cd2")
+		(uuid "d0b57d22-dee2-46cd-baf6-518398e3eeef")
 	)
 	(text "OPEN"
 		(exclude_from_sim no)
-		(at 86.614 141.224 0)
+		(at 34.036 89.408 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(uuid "b354350c-caf4-43e2-9d7a-c61707a4f30c")
+		(uuid "e131c5f3-2747-4597-b624-32517663d80c")
 	)
-	(text "THRU"
+	(text "SHORT"
 		(exclude_from_sim no)
-		(at 86.106 176.53 0)
+		(at 67.056 89.408 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(uuid "ed64eec1-6e90-4676-8aa3-cdf8e8addb68")
+		(uuid "e4cbf1d0-7bf4-483b-8fbb-fad6c35a62b9")
 	)
 	(junction
-		(at 54.61 152.4)
+		(at 58.42 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08797f48-d702-4659-b48a-765d26512d19")
 	)
 	(junction
-		(at 129.54 148.59)
+		(at 100.33 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ddb0f78-f9c9-41a7-901e-2dbc98958866")
 	)
 	(no_connect
-		(at 91.44 149.86)
+		(at 25.4 64.77)
 		(uuid "efe3702a-cf4d-4fc7-8888-6d8c08c1268c")
 	)
 	(wire
 		(pts
-			(xy 54.61 152.4) (xy 54.61 158.75)
+			(xy 58.42 67.31) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -570,7 +627,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 158.75) (xy 135.89 156.21)
+			(xy 106.68 29.21) (xy 106.68 26.67)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +637,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 181.61) (xy 99.06 181.61)
+			(xy 22.86 20.32) (xy 44.45 20.32)
 		)
 		(stroke
 			(width 0)
@@ -590,7 +647,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 151.13) (xy 121.92 158.75)
+			(xy 92.71 21.59) (xy 92.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -600,7 +657,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 158.75) (xy 129.54 156.21)
+			(xy 100.33 29.21) (xy 100.33 26.67)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +667,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 148.59) (xy 135.89 148.59)
+			(xy 100.33 19.05) (xy 106.68 19.05)
 		)
 		(stroke
 			(width 0)
@@ -620,7 +677,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 187.96) (xy 99.06 184.15)
+			(xy 44.45 26.67) (xy 44.45 22.86)
 		)
 		(stroke
 			(width 0)
@@ -630,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 148.59) (xy 111.76 158.75)
+			(xy 82.55 19.05) (xy 82.55 29.21)
 		)
 		(stroke
 			(width 0)
@@ -640,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 187.96) (xy 77.47 184.15)
+			(xy 22.86 26.67) (xy 22.86 22.86)
 		)
 		(stroke
 			(width 0)
@@ -650,7 +707,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 181.61) (xy 109.22 187.96)
+			(xy 54.61 20.32) (xy 54.61 26.67)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +717,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 181.61) (xy 67.31 187.96)
+			(xy 12.7 20.32) (xy 12.7 26.67)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +727,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 149.86) (xy 54.61 152.4)
+			(xy 58.42 64.77) (xy 58.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +737,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 149.86) (xy 81.28 158.75)
+			(xy 15.24 64.77) (xy 15.24 73.66)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +747,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 148.59) (xy 129.54 148.59)
+			(xy 92.71 19.05) (xy 100.33 19.05)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +757,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 149.86) (xy 44.45 158.75)
+			(xy 48.26 64.77) (xy 48.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +767,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 152.4) (xy 91.44 158.75)
+			(xy 25.4 67.31) (xy 25.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +776,7 @@
 		(uuid "ee95fc70-df0a-4e2b-8fcb-dbd16c1b9a12")
 	)
 	(label "50Ohm"
-		(at 127 148.59 0)
+		(at 97.79 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -729,7 +786,7 @@
 		(uuid "d30b87a4-9a35-4131-ae5e-a99c7bfa9b9b")
 	)
 	(label "50Ohm_thru"
-		(at 82.55 181.61 0)
+		(at 27.94 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -740,7 +797,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
-		(at 72.39 182.88 0)
+		(at 17.78 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -749,7 +806,7 @@
 		(fields_autoplaced yes)
 		(uuid "17d7f224-b908-4378-b755-d2eb6e3d4e73")
 		(property "Reference" "TP4"
-			(at 72.39 179.07 0)
+			(at 17.78 17.78 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -758,7 +815,7 @@
 			)
 		)
 		(property "Value" "Coaxial Testpoint"
-			(at 72.39 198.12 0)
+			(at 17.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +824,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
-			(at 72.39 190.5 0)
+			(at 17.78 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +833,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
-			(at 72.39 193.04 0)
+			(at 17.78 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +842,7 @@
 			)
 		)
 		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 72.39 195.58 0)
+			(at 17.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +851,7 @@
 			)
 		)
 		(property "MPN" "MM8030-2610RK0 "
-			(at 72.39 186.69 0)
+			(at 17.78 25.4 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -804,7 +861,7 @@
 			)
 		)
 		(property "LCSC Part #" "MM8030-2610RK0"
-			(at 72.39 182.88 0)
+			(at 17.78 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 187.96 0)
+		(at 54.61 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -844,7 +901,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b7e7bcb-0c53-4fdc-ab12-17ced8e72782")
 		(property "Reference" "#PWR07"
-			(at 109.22 194.31 0)
+			(at 54.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 193.04 0)
+			(at 54.61 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 187.96 0)
+			(at 54.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 187.96 0)
+			(at 54.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 187.96 0)
+			(at 54.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 158.75 0)
+		(at 58.42 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -910,7 +967,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b9b875a-380e-46ca-afb4-0dfa30e9b4e2")
 		(property "Reference" "#PWR01"
-			(at 54.61 165.1 0)
+			(at 58.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,7 +976,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 163.83 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 158.75 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 158.75 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,7 +1002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 158.75 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +1024,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 187.96 0)
+		(at 12.7 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -976,7 +1033,7 @@
 		(fields_autoplaced yes)
 		(uuid "247ef886-c490-4642-8ad2-9dc4d7da8a53")
 		(property "Reference" "#PWR06"
-			(at 67.31 194.31 0)
+			(at 12.7 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 193.04 0)
+			(at 12.7 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +1050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 187.96 0)
+			(at 12.7 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 187.96 0)
+			(at 12.7 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 187.96 0)
+			(at 12.7 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1090,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 158.75 0)
+		(at 48.26 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1042,7 +1099,7 @@
 		(fields_autoplaced yes)
 		(uuid "28c55c23-4102-47ad-935e-c08b15c0fb0e")
 		(property "Reference" "#PWR08"
-			(at 44.45 165.1 0)
+			(at 48.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1108,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 163.83 0)
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 158.75 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 158.75 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 158.75 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1156,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 158.75 0)
+		(at 100.33 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1108,7 +1165,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fa6e644-3a90-4f03-8ba1-93bef2581b17")
 		(property "Reference" "#PWR011"
-			(at 129.54 165.1 0)
+			(at 100.33 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 163.83 0)
+			(at 100.33 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 158.75 0)
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 158.75 0)
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 158.75 0)
+			(at 100.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1222,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
-		(at 49.53 151.13 0)
+		(at 53.34 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1174,7 +1231,7 @@
 		(fields_autoplaced yes)
 		(uuid "46ed2557-b78c-4eee-bb3a-14fa09ceecd7")
 		(property "Reference" "TP1"
-			(at 49.53 147.32 0)
+			(at 53.34 62.23 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1183,7 +1240,7 @@
 			)
 		)
 		(property "Value" "Coaxial Testpoint"
-			(at 49.53 166.37 0)
+			(at 53.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1249,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
-			(at 49.53 158.75 0)
+			(at 53.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1258,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
-			(at 49.53 161.29 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1267,7 @@
 			)
 		)
 		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 49.53 163.83 0)
+			(at 53.34 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1276,7 @@
 			)
 		)
 		(property "MPN" "MM8030-2610RK0 "
-			(at 49.53 154.94 0)
+			(at 53.34 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1229,7 +1286,7 @@
 			)
 		)
 		(property "LCSC Part #" "MM8030-2610RK0"
-			(at 49.53 151.13 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +1317,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 187.96 0)
+		(at 22.86 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1269,7 +1326,7 @@
 		(fields_autoplaced yes)
 		(uuid "6000fd9b-7ad1-4e4f-8bea-273e8948d154")
 		(property "Reference" "#PWR05"
-			(at 77.47 194.31 0)
+			(at 22.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 193.04 0)
+			(at 22.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 187.96 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 187.96 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 187.96 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 158.75 0)
+		(at 106.68 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1335,7 +1392,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b050a76-e55b-4257-a612-bd467886b7fb")
 		(property "Reference" "#PWR012"
-			(at 135.89 165.1 0)
+			(at 106.68 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 163.83 0)
+			(at 106.68 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 158.75 0)
+			(at 106.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 158.75 0)
+			(at 106.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 158.75 0)
+			(at 106.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1449,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
-		(at 104.14 182.88 0)
+		(at 49.53 21.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1402,7 +1459,7 @@
 		(fields_autoplaced yes)
 		(uuid "80d309a4-4c9f-4959-91a5-f504276ad3bc")
 		(property "Reference" "TP5"
-			(at 104.14 179.07 0)
+			(at 49.53 17.78 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1411,7 +1468,7 @@
 			)
 		)
 		(property "Value" "Coaxial Testpoint"
-			(at 104.14 198.12 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1477,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
-			(at 104.14 190.5 0)
+			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
-			(at 104.14 193.04 0)
+			(at 49.53 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1495,7 @@
 			)
 		)
 		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 104.14 195.58 0)
+			(at 49.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1504,7 @@
 			)
 		)
 		(property "MPN" "MM8030-2610RK0 "
-			(at 104.14 186.69 0)
+			(at 49.53 25.4 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1457,7 +1514,7 @@
 			)
 		)
 		(property "LCSC Part #" "MM8030-2610RK0"
-			(at 104.14 182.88 0)
+			(at 49.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1545,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 158.75 0)
+		(at 82.55 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1497,7 +1554,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0161630-f45a-4671-925a-46d7bbf3519d")
 		(property "Reference" "#PWR010"
-			(at 111.76 165.1 0)
+			(at 82.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 163.83 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 158.75 0)
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 158.75 0)
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 158.75 0)
+			(at 82.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1611,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 187.96 0)
+		(at 44.45 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1564,7 +1621,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3accda1-8fb4-4476-ad9c-cb0b06e42a27")
 		(property "Reference" "#PWR04"
-			(at 99.06 194.31 0)
+			(at 44.45 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 193.04 0)
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 187.96 0)
+			(at 44.45 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 187.96 0)
+			(at 44.45 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 187.96 0)
+			(at 44.45 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 158.75 0)
+		(at 25.4 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1630,7 +1687,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbcbf231-f2bf-4aa9-9ad1-2dcfb7e54d9b")
 		(property "Reference" "#PWR02"
-			(at 91.44 165.1 0)
+			(at 25.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 163.83 0)
+			(at 25.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +1704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 158.75 0)
+			(at 25.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 158.75 0)
+			(at 25.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 158.75 0)
+			(at 25.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 158.75 0)
+		(at 15.24 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1696,7 +1753,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce96680f-8590-4e9b-8f2a-511b96a61ec9")
 		(property "Reference" "#PWR09"
-			(at 81.28 165.1 0)
+			(at 15.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 163.83 0)
+			(at 15.24 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 158.75 0)
+			(at 15.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 158.75 0)
+			(at 15.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 158.75 0)
+			(at 15.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1810,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
-		(at 116.84 149.86 0)
+		(at 87.63 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1762,7 +1819,7 @@
 		(fields_autoplaced yes)
 		(uuid "e19749be-0801-4a30-8187-f498e7ca4fef")
 		(property "Reference" "TP3"
-			(at 116.84 146.05 0)
+			(at 87.63 16.51 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1771,7 +1828,7 @@
 			)
 		)
 		(property "Value" "Coaxial Testpoint"
-			(at 116.84 165.1 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1837,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
-			(at 116.84 157.48 0)
+			(at 87.63 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1846,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
-			(at 116.84 160.02 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1855,7 @@
 			)
 		)
 		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 116.84 162.56 0)
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1864,7 @@
 			)
 		)
 		(property "MPN" "MM8030-2610RK0 "
-			(at 116.84 153.67 0)
+			(at 87.63 24.13 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1817,7 +1874,7 @@
 			)
 		)
 		(property "LCSC Part #" "MM8030-2610RK0"
-			(at 116.84 149.86 0)
+			(at 87.63 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1905,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 158.75 0)
+		(at 92.71 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1857,7 +1914,7 @@
 		(fields_autoplaced yes)
 		(uuid "e709d90c-fe36-4815-bfff-3418c285ddb8")
 		(property "Reference" "#PWR03"
-			(at 121.92 165.1 0)
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 163.83 0)
+			(at 92.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 158.75 0)
+			(at 92.71 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 158.75 0)
+			(at 92.71 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 158.75 0)
+			(at 92.71 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1971,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor")
-		(at 135.89 152.4 0)
+		(at 106.68 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1922,7 +1979,7 @@
 		(dnp no)
 		(uuid "e7dd7844-e8a0-4d73-a56a-83ba2f6f6541")
 		(property "Reference" "R2"
-			(at 137.16 151.4475 0)
+			(at 107.95 21.9075 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1932,7 +1989,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 136.398 155.448 0)
+			(at 107.188 25.908 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1942,7 +1999,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor 0603"
-			(at 134.112 152.4 90)
+			(at 104.902 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +2008,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C160603.pdf"
-			(at 135.89 152.4 0)
+			(at 106.68 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +2017,7 @@
 			)
 		)
 		(property "Description" "Generic Resistor"
-			(at 135.89 152.4 0)
+			(at 106.68 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +2026,7 @@
 			)
 		)
 		(property "LCSC Part #" "C160603"
-			(at 135.89 152.4 0)
+			(at 106.68 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2051,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:Coaxial Testpoint")
-		(at 86.36 151.13 0)
+		(at 20.32 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2003,7 +2060,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec867b21-58ae-473d-8097-4a1d81516c5f")
 		(property "Reference" "TP2"
-			(at 86.36 147.32 0)
+			(at 20.32 62.23 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2012,7 +2069,7 @@
 			)
 		)
 		(property "Value" "Coaxial Testpoint"
-			(at 86.36 166.37 0)
+			(at 20.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2078,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:MM8030-2610RK0"
-			(at 86.36 158.75 0)
+			(at 20.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2087,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.sk/datasheet/2/281/1/MURE_S_A0002490443_1-2522016.pdf"
-			(at 86.36 161.29 0)
+			(at 20.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2096,7 @@
 			)
 		)
 		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 86.36 163.83 0)
+			(at 20.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2105,7 @@
 			)
 		)
 		(property "MPN" "MM8030-2610RK0 "
-			(at 86.36 154.94 0)
+			(at 20.32 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2058,7 +2115,7 @@
 			)
 		)
 		(property "LCSC Part #" "MM8030-2610RK0"
-			(at 86.36 151.13 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2146,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor")
-		(at 129.54 152.4 0)
+		(at 100.33 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2097,7 +2154,7 @@
 		(dnp no)
 		(uuid "f050b4f8-f4f1-4532-aef8-2ca4fc98d5ae")
 		(property "Reference" "R1"
-			(at 130.81 151.4475 0)
+			(at 101.6 21.9075 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2107,7 +2164,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 129.794 155.448 0)
+			(at 100.584 25.908 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2117,7 +2174,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor 0603"
-			(at 127.762 152.4 90)
+			(at 98.552 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2183,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C160603.pdf"
-			(at 129.54 152.4 0)
+			(at 100.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2192,7 @@
 			)
 		)
 		(property "Description" "Generic Resistor"
-			(at 129.54 152.4 0)
+			(at 100.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2201,7 @@
 			)
 		)
 		(property "LCSC Part #" "C160603"
-			(at 129.54 152.4 0)
+			(at 100.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
