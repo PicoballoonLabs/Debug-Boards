@@ -2579,7 +2579,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "783c449d-79b7-4700-a97a-72c18a1ef958")
+			(uuid "bf76c4c7-34d4-4b80-a501-d34458ab6cdc")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.825 90)
@@ -2601,7 +2601,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "783c449d-79b7-4700-a97a-72c18a1ef958")
+			(uuid "9340b371-08ba-461e-8b7d-87352cbecef0")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 0 90)
@@ -2623,7 +2623,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "783c449d-79b7-4700-a97a-72c18a1ef958")
+			(uuid "75c9a0d7-f210-4334-93cb-1f1359767811")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/DX07S016JA1R1500.step"
@@ -20968,7 +20968,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 170.5 78.88) (xy 170.5 79.98) (xy 171.05 79.43)
+			(xy 165.375 79.945) (xy 165.375 78.845) (xy 164.825 79.395)
 		)
 		(stroke
 			(width 0.1)
@@ -21057,7 +21057,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 161.45 78.88) (xy 161.45 79.98) (xy 162 79.43)
+			(xy 156.25 79.95) (xy 156.25 78.85) (xy 155.7 79.4)
 		)
 		(stroke
 			(width 0.1)
@@ -21460,7 +21460,7 @@
 		)
 	)
 	(gr_text "ON"
-		(at 172.4 79.78 0)
+		(at 163.475 79.045 180)
 		(layer "B.SilkS")
 		(uuid "08ad573f-005f-4364-8adc-6634ecbd099b")
 		(effects
@@ -21522,7 +21522,7 @@
 		)
 	)
 	(gr_text "ON"
-		(at 163.4 79.78 0)
+		(at 154.3 79.05 180)
 		(layer "B.SilkS")
 		(uuid "e67eb751-c7b4-493b-943a-4f4832112d08")
 		(effects

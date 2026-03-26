@@ -472,8 +472,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "EasyEDA to KiCad"
+    ],
+    "pinned_symbol_libs": [
+      "EasyEDA to KiCad"
+    ]
   },
   "meta": {
     "filename": "Integrated Debugger.kicad_pro",
@@ -630,9 +634,21 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": true
         },
         {
@@ -649,21 +665,9 @@
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC Part #",
-          "show": true
         },
         {
           "group_by": false,
@@ -676,12 +680,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB Part #",
-          "name": "JLCPCB Part #",
-          "show": true
         },
         {
           "group_by": false,
@@ -762,12 +760,12 @@
     ]
   ],
   "text_variables": {
-    "CHK_APP_DATE": "11/4/2025",
-    "CHK_NAME": "Jakub Nagy",
-    "DSN_APP_DATE": "11/1/2025",
-    "DSN_NAME": "Adam Gramblicka",
-    "ENG_APP_DATE": "11/3/2025",
-    "ENG_NAME": "Adam Gramblicka",
+    "CHK_APP_DATE": "",
+    "CHK_NAME": "",
+    "DSN_APP_DATE": "3/26/2026",
+    "DSN_NAME": "Jakub Nagy",
+    "ENG_APP_DATE": "",
+    "ENG_NAME": "",
     "PROJECT": "Integrated Debugger"
   }
 }
