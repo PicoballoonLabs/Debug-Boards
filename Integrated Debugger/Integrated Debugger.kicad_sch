@@ -2915,7 +2915,7 @@
 		(uuid 245a5056-0717-46ec-8dcb-0daa3391af3b)
 	)
 	(rectangle
-		(start 66.04 105.41)
+		(start 76.2 105.41)
 		(end 129.54 140.97)
 		(stroke
 			(width 0)
@@ -4133,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "SER"
 			(at 72.39 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4142,7 +4142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:LED 0201"
+		(property "Footprint" "Picoballoon Passives:LED 0402"
 			(at 72.39 82.55 0)
 			(effects
 				(font
@@ -4543,7 +4543,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 82.55 125.73 90)
+		(at 90.17 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4551,7 +4551,7 @@
 		(dnp no)
 		(uuid "5724a5d9-647e-4dfb-94e3-18d13fc840bc")
 		(property "Reference" "#PWR03"
-			(at 86.36 125.73 0)
+			(at 93.98 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4560,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 79.375 125.73 90)
+			(at 86.995 125.73 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 125.73 0)
+			(at 90.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 125.73 0)
+			(at 90.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 82.55 125.73 0)
+			(at 90.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4958,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "ERR"
 			(at 72.39 69.85 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4967,7 +4967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:LED 0201"
+		(property "Footprint" "Picoballoon Passives:LED 0402"
 			(at 72.39 67.31 0)
 			(effects
 				(font
@@ -5717,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ACT"
 			(at 72.39 77.47 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5726,7 +5726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:LED 0201"
+		(property "Footprint" "Picoballoon Passives:LED 0402"
 			(at 72.39 74.93 0)
 			(effects
 				(font
@@ -6419,93 +6419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Picoballoon Passives:Ferrite bead")
-		(at 86.36 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef6c5362-ff77-4550-af4a-95edbecc706e")
-		(property "Reference" "FB3"
-			(at 86.36 128.905 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1000Ω"
-			(at 86.36 130.81 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Picoballoon Passives:Inductor 0402"
-			(at 86.36 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic Ferrite bead"
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM15HD102SN1D"
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C21516"
-			(at 86.36 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ed7cd5f-55e2-4e78-8340-8f6647a2c0d9")
-		)
-		(pin "2"
-			(uuid "200b627b-0bc0-4c30-baa4-16b85dc557ae")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Picoballoon Power Symbols:VBUS")
 		(at 193.04 99.06 0)
 		(mirror y)
@@ -6730,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(pin "TARGET_EN" input
+		(pin "TG_EN" input
 			(at 147.32 46.99 270)
 			(uuid "510a19dd-8f14-4e13-9543-b6046a44c3d2")
 			(effects
@@ -6852,7 +6765,7 @@
 				(justify right)
 			)
 		)
-		(pin "TARGET_EN" output
+		(pin "TG_EN" output
 			(at 138.43 62.23 0)
 			(uuid "e40432d1-0129-4901-81fd-8c28d4063c24")
 			(effects

@@ -3389,7 +3389,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5356,7 +5356,6 @@
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor array 8")
 		(at 26.67 78.74 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5364,7 +5363,7 @@
 		(dnp no)
 		(uuid "14fcfa06-8156-4f93-a035-8661029da260")
 		(property "Reference" "RN1"
-			(at 26.67 73.66 90)
+			(at 26.67 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5371,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 26.67 75.565 90)
+			(at 26.67 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5379,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
-			(at 26.67 80.772 90)
+			(at 26.67 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5397,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 21.59 71.12 90)
+			(at 21.59 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6477,7 @@
 		(pin "1"
 			(uuid "33d255e1-19ae-48ee-bd3b-0b49e3228aae")
 		)
-		(pin "5"
+		(pin "4"
 			(uuid "48de17a1-6eb0-4f11-af82-ddb0265a2990")
 		)
 		(pin "5"
@@ -6573,6 +6572,7 @@
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor array 8")
 		(at 73.66 29.21 90)
+		(mirror x)
 		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6580,23 +6580,25 @@
 		(dnp no)
 		(uuid "64881b9e-2391-46a0-a1b2-fe8b6901e868")
 		(property "Reference" "RN1"
-			(at 67.31 28.194 90)
+			(at 69.85 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100Ω"
-			(at 80.01 28.194 90)
+			(at 77.216 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
-			(at 73.66 31.242 90)
+			(at 73.66 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6616,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 78.74 21.59 90)
+			(at 78.74 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,6 +6695,71 @@
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/d9cee7b3-2b2b-4107-bac3-796b154ca54d"
 					(reference "RN1")
 					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Picoballoon Power Symbols:+3.3V")
+		(at 149.86 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "745ceb21-83ed-4ff8-a463-48d0d8cfeb94")
+		(property "Reference" "#PWR023"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_AUX"
+			(at 149.86 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a8e4b6-7190-4aeb-b2dd-7ddb727aa00c")
+		)
+		(instances
+			(project "Integrated Debugger"
+				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/d9cee7b3-2b2b-4107-bac3-796b154ca54d"
+					(reference "#PWR023")
+					(unit 1)
 				)
 			)
 		)
@@ -6834,19 +6901,21 @@
 		(dnp no)
 		(uuid "9bf1b219-d1cc-42b6-a29f-fed5053b6b34")
 		(property "Reference" "RN1"
-			(at 67.31 30.48 90)
+			(at 69.85 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100Ω"
-			(at 80.01 30.734 90)
+			(at 77.216 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Picoballoon Passives:Resistor 0402x8"
@@ -7068,6 +7137,7 @@
 	(symbol
 		(lib_id "Picoballoon Passives:Resistor array 8")
 		(at 66.04 17.78 0)
+		(mirror x)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7075,7 +7145,7 @@
 		(dnp no)
 		(uuid "ab1d3eeb-aad8-4214-aa37-63d19f043a85")
 		(property "Reference" "RN1"
-			(at 64.77 16.764 0)
+			(at 64.77 16.8275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7154,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 64.77 18.669 0)
+			(at 64.77 18.6055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7181,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 22.86 90)
+			(at 73.66 12.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,71 +7325,6 @@
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/d9cee7b3-2b2b-4107-bac3-796b154ca54d"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Picoballoon Power Symbols:+3.3V")
-		(at 149.86 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae2592db-df09-474f-91d7-dcb3ce6d4108")
-		(property "Reference" "#PWR023"
-			(at 149.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_TG"
-			(at 149.86 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b677cb3-9207-4af6-afc2-abe9e70bcafc")
-		)
-		(instances
-			(project "Integrated Debugger"
-				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/d9cee7b3-2b2b-4107-bac3-796b154ca54d"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8147,8 +8152,7 @@
 	)
 	(symbol
 		(lib_id "Picoballoon Mechanical & Misc:GT-TC048D-H025-L1")
-		(at 78.74 102.87 0)
-		(mirror y)
+		(at 78.74 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8156,16 +8160,16 @@
 		(dnp no)
 		(uuid "ff8c77a6-a17a-47b7-a5e6-572404d4d596")
 		(property "Reference" "SW5"
-			(at 82.55 96.52 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "YTS1T0161AWJ00"
-			(at 79.248 107.442 0)
+		(property "Value" "RESET"
+			(at 79.248 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8178,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:SMD-4P 4.2x3.2mm"
-			(at 78.74 111.76 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +8187,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2985732.pdf"
-			(at 78.74 114.3 0)
+			(at 78.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +8196,7 @@
 			)
 		)
 		(property "Description" "Without Bracket 4.2mm 12V 3.2mm Oval Button No SPST 50mA SMD-4P,4.2x3.2mm Tactile Switches ROHS"
-			(at 78.74 116.84 0)
+			(at 78.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8205,7 @@
 			)
 		)
 		(property "MPN" "YTS1T0161AWJ00"
-			(at 78.74 119.38 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8214,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2985732"
-			(at 78.74 121.92 0)
+			(at 78.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

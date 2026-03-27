@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.65,
-          "width": 0.25
+          "height": 2.7,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|172706005|86300407|195129bd-b36a-4f62-904d-ea32fdb6090c|eef8032e-64d3-42c2-aa76-eee45ce91c1f",
-          ""
-        ],
-        [
-          "clearance|172709955|86121511|195129bd-b36a-4f62-904d-ea32fdb6090c|d5eec167-5488-4837-a879-0639a2272c52",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -132,11 +123,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.09,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -145,8 +136,8 @@
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.125,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -198,7 +189,9 @@
       "track_widths": [
         0.0,
         0.1,
+        0.15,
         0.2,
+        0.3,
         0.35
       ],
       "tuning_pattern_settings": {
@@ -499,20 +492,20 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
-        "via_diameter": 0.45,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1554,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
         "name": "Coplanar Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1554,
-        "via_diameter": 0.45,
+        "track_width": 0.15,
+        "via_diameter": 0.4,
         "via_drill": 0.2
       },
       {
@@ -522,7 +515,7 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.45,
+        "via_diameter": 0.4,
         "via_drill": 0.2
       },
       {

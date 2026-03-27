@@ -2933,28 +2933,6 @@
 		)
 		(uuid "fcf85100-9a8b-483e-beee-49dc2ae3d2f4")
 	)
-	(label "V_TARGET_UNFILT"
-		(at 44.45 20.32 0)
-		(effects
-			(font
-				(size 0.254 0.254)
-				(color 255 255 225 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "881efd34-46ad-44db-88ac-456a1f6aa7c5")
-	)
-	(label "V_TARGET_UNFILT"
-		(at 170.18 20.32 0)
-		(effects
-			(font
-				(size 0.254 0.254)
-				(color 255 255 225 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "f85e55ce-0d41-406c-848f-8dcfc4fccd61")
-	)
 	(hierarchical_label "AUX_EN"
 		(shape input)
 		(at 152.4 22.86 180)
@@ -2977,7 +2955,7 @@
 		)
 		(uuid "8ffdab57-01f2-4637-b209-6ffcac60c3da")
 	)
-	(hierarchical_label "TARGET_EN"
+	(hierarchical_label "TG_EN"
 		(shape input)
 		(at 52.07 74.93 0)
 		(effects
@@ -3471,7 +3449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:LED 0201"
+		(property "Footprint" "Picoballoon Passives:LED 0402"
 			(at 186.69 25.4 0)
 			(effects
 				(font
@@ -4084,7 +4062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Picoballoon Mechanical & Misc:MOLEX 532610271"
+		(property "Footprint" "Picoballoon Mechanical & Misc:JST-SH-2P"
 			(at 120.65 33.02 0)
 			(effects
 				(font
@@ -5666,7 +5644,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Auxiliary Override"
+		(property "Value" "AUXILIARY POWER"
 			(at 17.78 67.31 0)
 			(effects
 				(font
@@ -6450,7 +6428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon Passives:LED 0201"
+		(property "Footprint" "Picoballoon Passives:LED 0402"
 			(at 60.96 25.4 0)
 			(effects
 				(font
