@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Power supply")
-		(date "2026-03-26")
+		(date "2026-03-30")
 		(rev "2.0.0")
 	)
 	(lib_symbols
@@ -3251,7 +3251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18fe741b-9a9e-4221-9f8c-91200f4f96c0")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 132.715 78.105 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3325,7 +3325,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e95f6f4-5158-439d-b653-d42ebb855761")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 123.825 78.105 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4238,7 +4238,7 @@
 		(instances
 			(project "Integrated Debugger"
 				(path "/ce538ebe-fda9-4af3-9f8c-9fd5bf58f0e4/1f474345-9816-463c-8085-128d97092ac0"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)

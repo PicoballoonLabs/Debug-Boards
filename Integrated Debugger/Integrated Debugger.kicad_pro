@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.65,
-          "width": 0.25
+          "height": 2.7,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -123,8 +123,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.09,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
@@ -136,7 +136,7 @@
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.09,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.005,
@@ -189,7 +189,9 @@
       "track_widths": [
         0.0,
         0.1,
+        0.15,
         0.2,
+        0.3,
         0.35
       ],
       "tuning_pattern_settings": {
@@ -751,12 +753,12 @@
     ]
   ],
   "text_variables": {
-    "CHK_APP_DATE": "",
-    "CHK_NAME": "",
+    "CHK_APP_DATE": "3/30/2026",
+    "CHK_NAME": "Radovan Nerad",
     "DSN_APP_DATE": "3/26/2026",
     "DSN_NAME": "Jakub Nagy",
-    "ENG_APP_DATE": "",
-    "ENG_NAME": "",
+    "ENG_APP_DATE": "3/27/2026",
+    "ENG_NAME": "Jakub Nagy",
     "PROJECT": "Integrated Debugger"
   }
 }
