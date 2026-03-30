@@ -5411,7 +5411,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "15pF"
 			(at 109.855 123.825 0)
 			(effects
 				(font
@@ -5447,7 +5447,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM0335C1H180GA01D"
+		(property "MPN" "CC0201GRNPO8BN150"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -5456,7 +5456,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C161409"
+		(property "LCSC Part #" "C1853525"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -5989,7 +5989,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "15pF"
 			(at 98.425 123.825 0)
 			(effects
 				(font
@@ -6025,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM0335C1H180GA01D"
+		(property "MPN" "CC0201GRNPO8BN150"
 			(at 99.06 121.92 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C161409"
+		(property "LCSC Part #" "C1853525"
 			(at 99.06 121.92 0)
 			(effects
 				(font
