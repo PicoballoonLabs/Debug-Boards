@@ -4089,7 +4089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WAFA2-RDT1-2021-D"
+		(property "MPN" "SM02B-SRSS-TB(LF)(SN)"
 			(at 120.65 37.465 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C52995100"
+		(property "LCSC Part #" "C160402"
 			(at 120.65 40.005 0)
 			(effects
 				(font

@@ -27,7 +27,6 @@ fp-info-cache
 *.ses
 
 # Exported local prod files
-production/
 *.csv
 *.xml
 pdfs/

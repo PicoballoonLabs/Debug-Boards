@@ -4429,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C295808"
+		(property "LCSC Part #" "C138165"
 			(at 83.82 67.31 90)
 			(effects
 				(font
@@ -5152,7 +5152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:SOT-666-6"
+		(property "Footprint" "Picoballoon ICs:XSON-6"
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -5182,7 +5182,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15999"
+		(property "LCSC Part #" "C2999115"
 			(at 193.04 115.57 0)
 			(effects
 				(font
@@ -5191,7 +5191,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USBLC6-2P6"
+		(property "MPN" "USBULC6-2M6"
 			(at 193.04 115.57 0)
 			(effects
 				(font

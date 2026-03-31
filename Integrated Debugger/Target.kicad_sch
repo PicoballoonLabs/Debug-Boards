@@ -7962,7 +7962,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "20021521-00010T1LF"
+		(property "MPN" "20021521-00010C1LF"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -7971,7 +7971,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2972785"
+		(property "LCSC Part #" "C598547"
 			(at 175.26 51.435 0)
 			(effects
 				(font
@@ -8300,7 +8300,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17642742"
+		(property "LCSC Part #" "C2937136"
 			(at 44.45 86.36 90)
 			(effects
 				(font
@@ -8309,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMN31D5UDA-7B"
+		(property "MPN" "DMN2991UDA-7B"
 			(at 44.45 86.36 90)
 			(effects
 				(font
