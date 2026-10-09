@@ -2,3 +2,5 @@
 *.DS_Store
 *backups/
 *.lck
+# KiCad footprint cache
+fp-info-cache
