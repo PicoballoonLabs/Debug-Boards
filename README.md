@@ -19,6 +19,8 @@ The projects use the symbol, footprint and 3D model libraries from [Hardware-Res
 
 No firmware is distributed in this repository. The Integrated Debugger runs the upstream [Black Magic Debug](https://github.com/blackmagic-debug/blackmagic) firmware (GPLv3), which can be installed and updated with [bmputil](https://github.com/blackmagic-debug/bmputil).
 
+The hardware designs in this repository are original work, released under the MIT Licence (see [LICENSE](LICENSE)). They are compatible with Black Magic Debug firmware but are not derived from it.
+
 ## 📄 Licence
 
 The hardware designs in this repository are released under the MIT Licence, see [LICENSE](LICENSE).
