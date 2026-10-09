@@ -2835,7 +2835,7 @@
 			(uuid "f5abf51a-d29b-4c9d-aca7-3c5a06a4d71e")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR038")
 					(unit 1)
@@ -2900,7 +2900,7 @@
 			(uuid "4ca138c7-e19f-4a34-ab8f-20a6ae448364")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR033")
 					(unit 1)
@@ -2967,7 +2967,7 @@
 			(uuid "1beb2cf0-1682-494d-be02-9ad19bb1bb43")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR039")
 					(unit 1)
@@ -3200,7 +3200,7 @@
 			(uuid "e216d96f-4dfe-417e-9a0a-cb6de31d1d53")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "U3")
 					(unit 1)
@@ -3330,7 +3330,7 @@
 			(uuid "c7cc481f-9096-41ec-a737-1d9759d0ad15")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "U4")
 					(unit 1)
@@ -3395,7 +3395,7 @@
 			(uuid "adccd690-79ee-45b6-8c82-e9b358d4d1d1")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR043")
 					(unit 1)
@@ -3460,7 +3460,7 @@
 			(uuid "f1ecfedf-f28b-43bc-af55-747e5be17d8b")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR032")
 					(unit 1)
@@ -3525,7 +3525,7 @@
 			(uuid "fca7c67f-2e8f-4e31-84c7-8bf78904de41")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR027")
 					(unit 1)
@@ -3592,7 +3592,7 @@
 			(uuid "40095d3d-bf0d-4349-8a0f-73b13e3674e1")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR034")
 					(unit 1)
@@ -3657,7 +3657,7 @@
 			(uuid "da07a033-9039-40d0-a9cc-f92199038336")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR037")
 					(unit 1)
@@ -3756,7 +3756,7 @@
 			(uuid "a67acdb0-9128-44de-b0e6-e486586d3fa0")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C6")
 					(unit 1)
@@ -3821,7 +3821,7 @@
 			(uuid "bc250fff-1ef5-4e0d-abf9-a6ed545f3995")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR040")
 					(unit 1)
@@ -3920,7 +3920,7 @@
 			(uuid "d9e29b66-d698-490c-9459-af996139b597")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C9")
 					(unit 1)
@@ -3985,7 +3985,7 @@
 			(uuid "ea0f67e4-86e0-43a3-a5b8-297f17675711")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR029")
 					(unit 1)
@@ -4051,7 +4051,7 @@
 			(uuid "fc391ab7-2898-47fd-b0be-7876a628642a")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR048")
 					(unit 1)
@@ -4177,7 +4177,7 @@
 			(uuid "f5b6eaf0-1a6c-411e-8427-037157b51e06")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C4")
 					(unit 1)
@@ -4271,7 +4271,7 @@
 			(uuid "d8b53f1d-ba6f-4d91-9cb9-38b926d62278")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "J5")
 					(unit 1)
@@ -4337,7 +4337,7 @@
 			(uuid "073fd901-6203-440b-bdc1-963c0b58da53")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR045")
 					(unit 1)
@@ -4403,7 +4403,7 @@
 			(uuid "867db3f6-7ddd-43dc-90c3-833f214261cf")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR031")
 					(unit 1)
@@ -4528,7 +4528,7 @@
 			(uuid "ba91e84c-8df5-4f7d-bb2b-c87b5c77a302")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C5")
 					(unit 1)
@@ -4624,7 +4624,7 @@
 			(uuid "adafe39d-21ad-4aba-ac0d-ce383b3f5b86")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "D1")
 					(unit 1)
@@ -4690,7 +4690,7 @@
 			(uuid "fcd30b0d-bc59-4797-89c7-f59427d604a6")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR044")
 					(unit 1)
@@ -4816,7 +4816,7 @@
 			(uuid "9f5ea389-795b-42ab-a8f4-5ef9bb5f2365")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C10")
 					(unit 1)
@@ -4883,7 +4883,7 @@
 			(uuid "91202561-1038-4ee5-bd78-cdf8282300d8")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR026")
 					(unit 1)
@@ -5017,7 +5017,7 @@
 			(uuid "126c87e5-0d7f-422b-b52b-c6759eca00a6")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "U5")
 					(unit 1)
@@ -5112,7 +5112,7 @@
 			(uuid "0e0785d1-6bb5-4f33-81a0-c020d993e57c")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "SW2")
 					(unit 1)
@@ -5177,7 +5177,7 @@
 			(uuid "1aa901d4-ed64-4ff2-b027-ae8c1787930c")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR036")
 					(unit 1)
@@ -5242,7 +5242,7 @@
 			(uuid "cd0f5849-76fd-4e07-940c-e74bc4c75dad")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR046")
 					(unit 1)
@@ -5367,7 +5367,7 @@
 			(uuid "6acebbd0-4267-494a-9f41-632681997530")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C8")
 					(unit 1)
@@ -5432,7 +5432,7 @@
 			(uuid "9499c679-2a50-41da-8aad-2142798dfe65")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR028")
 					(unit 1)
@@ -5557,7 +5557,7 @@
 			(uuid "6249f324-f1d3-4ff3-a196-b6fa4ad1a9ff")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C11")
 					(unit 1)
@@ -5622,7 +5622,7 @@
 			(uuid "38ece8ee-7718-4299-876b-a6e5d3b127a6")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR041")
 					(unit 1)
@@ -5687,7 +5687,7 @@
 			(uuid "89a9f539-a53b-4669-99bc-6d48ff4704bb")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR042")
 					(unit 1)
@@ -5753,7 +5753,7 @@
 			(uuid "922a5532-c149-4a19-9681-fdfa998bef23")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR030")
 					(unit 1)
@@ -5869,7 +5869,7 @@
 			(uuid "4ab9168a-9631-47f3-8d42-0f8c060385f0")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "C7")
 					(unit 1)
@@ -5968,7 +5968,7 @@
 			(uuid "622d5f3e-eb65-431d-b50c-27e6e5c37a60")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "R8")
 					(unit 1)
@@ -6035,7 +6035,7 @@
 			(uuid "729dfb3c-ba21-4f9d-bdba-07c250d8f0ca")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR035")
 					(unit 1)
@@ -6124,7 +6124,7 @@
 			(uuid "393eb8f6-15c2-445e-bc1c-f64df7007b22")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "R7")
 					(unit 1)
@@ -6189,7 +6189,7 @@
 			(uuid "d123c2df-157e-41cf-a9ac-5f8e5d597fa4")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "#PWR047")
 					(unit 1)
@@ -6288,7 +6288,7 @@
 			(uuid "98f8a4f9-1f2c-460b-9702-232b3917c885")
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2/59177eb1-b6ee-4af1-9475-e6330274dcda"
 					(reference "R9")
 					(unit 1)

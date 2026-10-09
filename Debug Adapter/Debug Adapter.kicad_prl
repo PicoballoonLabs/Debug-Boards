@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Picoballoon Adapter.kicad_prl",
+    "filename": "Debug Adapter.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

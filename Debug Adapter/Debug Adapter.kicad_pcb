@@ -8,7 +8,7 @@
 	)
 	(paper "A5")
 	(title_block
-		(title "Picoballoon Adapter")
+		(title "Debug Adapter")
 		(date "2025-04-06")
 		(rev "2.0.0")
 	)
@@ -136,7 +136,7 @@
 	(property "DSN_NAME" "Jakub Nagy")
 	(property "ENG_APP_DATE" "4/7/2025")
 	(property "ENG_NAME" "Jakub Nagy")
-	(property "PROJECT" "Picoballoon Adapter")
+	(property "PROJECT" "Debug Adapter")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "+3.3V")

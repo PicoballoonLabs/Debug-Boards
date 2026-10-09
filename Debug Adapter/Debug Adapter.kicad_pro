@@ -486,7 +486,7 @@
     ]
   },
   "meta": {
-    "filename": "Picoballoon Adapter.kicad_pro",
+    "filename": "Debug Adapter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -877,6 +877,6 @@
     "DSN_NAME": "Jakub Nagy",
     "ENG_APP_DATE": "4/7/2025",
     "ENG_NAME": "Jakub Nagy",
-    "PROJECT": "Picoballoon Adapter"
+    "PROJECT": "Debug Adapter"
   }
 }

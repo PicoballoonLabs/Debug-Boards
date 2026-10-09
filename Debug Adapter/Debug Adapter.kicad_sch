@@ -147,7 +147,7 @@
 			)
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2"
 					(page "4")
 				)
@@ -251,7 +251,7 @@
 			)
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2"
 					(page "3")
 				)
@@ -375,7 +375,7 @@
 			)
 		)
 		(instances
-			(project "Picoballoon Adapter"
+			(project "Debug Adapter"
 				(path "/8906f4d8-5208-4c7e-909f-b455a2302ce2"
 					(page "2")
 				)
